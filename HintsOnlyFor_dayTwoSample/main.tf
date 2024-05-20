@@ -11,14 +11,14 @@ terraform {
     bucket = "erakiterrafromstatefiles"
     key    = "s3.tfstate"
     region = "us-east-1"
-    profile = "lama"
+    profile = "eraki"
     }
 }
 
 # Configure aws provider
 provider "aws" {
     region = "us-east-1"
-    profile = "lama"  # replace this with your profile name, If you're using the default one remove this line.
+    profile = "eraki"  # replace this with your profile name, If you're using the default one remove this line.
 }
 
 
