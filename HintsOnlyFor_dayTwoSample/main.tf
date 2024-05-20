@@ -9,7 +9,7 @@ terraform {
 
     backend "s3" {
     bucket = "erakiterrafromstatefiles"
-    key    = "15-lambda_layers/lambda_layer.tfstate"
+    key    = "s3.tfstate"
     region = "us-east-1"
     profile = "lama"
     }
