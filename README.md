@@ -19,3 +19,31 @@ use IaC Terrafrom to build the following resource besides requirement specificat
   - Preferd to use variables.
   ## Code Sample:
 - [Day One sample](https://github.com/Mohamed-Eleraki/Terraform-Champs/tree/main/dayOneSample)
+<br>
+<br>
+
+
+
+# Day Two task
+use IaC Terrafrom to build the following resource besides requirement specifications:
+
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+- Create IAM user.
+- Create S3 Bucket.
+- Enable S3 Bucker Versioning.
+- Disable ACL and ensure object ownership have "BucketOwnerEnforced"
+- Create a directory under the S3 Bucket called "logs"
+- Provide permission for the IAM user to upload object only under logs.
+
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+
+  - Preferd to use variables.
+  ## Code Sample:
+- [Day Two sample](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)
+- [Day Two sample](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/16-S3BucketArchive/configureProvider.tf)
+
+
