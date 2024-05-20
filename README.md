@@ -18,4 +18,4 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 
   - Preferd to use variables.
   ## Code Sample:
-  - [dayOneSample] (https://github.dev/Mohamed-Eleraki/Terraform-Champs/tree/main/dayOneSample)
+- [Day One sample](https://github.com/Mohamed-Eleraki/Terraform-Champs/tree/main/dayOneSample)
