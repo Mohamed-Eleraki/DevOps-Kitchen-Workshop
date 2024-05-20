@@ -3,3 +3,4 @@
 
 # Ignore .terrafrom file
 .terraform
+.terraform*
