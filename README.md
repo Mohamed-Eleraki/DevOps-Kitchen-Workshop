@@ -14,7 +14,7 @@ use IaC Terrafrom to build the following resource besides requirement specificat
   - Resources must be created at us-east-1 region otherwise will fail.
   - Resources must have tags as below otherwise will fail <br>
     Key: "Environment"   Value: "terraformChamps" <br>
-    Key: "Owner"   Value: "<type your name here>"
+    Key: "Owner"   Value: "<type_your_name_here>"
 
   ## Code Sample:
   - 
