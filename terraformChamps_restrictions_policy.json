@@ -57,6 +57,7 @@
 		},
 		{
 			"Effect": "Allow",
+            "Description": "allow permission to Policy doesn't accept tag conditions",
 			"Action": [
 				"ec2:DescribeVpcs",
 				"ec2:DescribeSubnets",
@@ -90,6 +91,7 @@
 		},
 		{
 			"Effect": "Allow",
+            "Description": "allow permission to access bucket for backend",
 			"Action": [
 				"s3:GetObject",
 				"s3:ListBucket",
