@@ -1,0 +1,106 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Deny",
+			"Action": "*",
+			"Resource": "*",
+			"Condition": {
+				"Null": {
+					"aws:RequestTag/Environment": "true",
+					"aws:RequestTag/Owner": "true"
+				},
+				"StringNotEquals": {
+					"aws:RequestTag/Environment": "terraformChamps",
+					"aws:RequestTag/Owner": "lama",
+					"aws:RequestedRegion": "us-east-1"
+				}
+			}
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"ec2:CreateVpc",
+				"ec2:DeleteVpc",
+				"ec2:CreateSubnet",
+				"ec2:DeleteSubnet",
+				"ec2:CreateInternetGateway",
+				"ec2:DeleteInternetGateway",
+				"ec2:AttachInternetGateway",
+				"ec2:DetachInternetGateway",
+				"ec2:CreateRouteTable",
+				"ec2:DeleteRouteTable",
+				"ec2:AssociateRouteTable",
+				"ec2:DisassociateRouteTable",
+				"ec2:CreateRoute",
+				"ec2:DeleteRoute",
+				"ec2:DescribeVpcs",
+				"ec2:DescribeSubnets",
+				"ec2:DescribeInternetGateways",
+				"ec2:DescribeRouteTables",
+				"ec2:CreateTags",
+				"ec2:DescribeVpcAttribute",
+				"ec2:DescribeNetworkInterfaces"
+			],
+			"Resource": [
+				"*",
+				"arn:aws:ec2:us-east-1:891377122503:route-table/rtb-07abde8abaa0dcd40",
+				"arn:aws:ec2:us-east-1:891377122503:route-table/*"
+			],
+			"Condition": {
+				"StringEquals": {
+					"aws:RequestedRegion": "us-east-1",
+					"aws:RequestTag/Environment": "terraformChamps",
+					"aws:RequestTag/Owner": "lama"
+				}
+			}
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"ec2:DescribeVpcs",
+				"ec2:DescribeSubnets",
+				"ec2:DescribeInternetGateways",
+				"ec2:DescribeRouteTables",
+				"ec2:DescribeVpcAttribute",
+				"ec2:DescribeNetworkInterfaces",
+				"ec2:CreateSubnet",
+				"ec2:DeleteInternetGateway",
+				"ec2:AttachInternetGateway",
+				"ec2:DeleteRouteTable",
+				"ec2:CreateRouteTable",
+				"ec2:CreateRoute",
+				"ec2:AssociateRouteTable",
+				"ec2:DisassociateRouteTable",
+				"ec2:DeleteSubnet",
+				"ec2:DetachInternetGateway",
+				"ec2:DeleteVpc",
+				"s3:*"
+			],
+			"Resource": [
+				"*",
+				"arn:aws:ec2:us-east-1:891377122503:route-table/rtb-07abde8abaa0dcd40",
+				"arn:aws:ec2:us-east-1:891377122503:route-table/*"
+			],
+			"Condition": {
+				"StringEquals": {
+					"aws:RequestedRegion": "us-east-1"
+				}
+			}
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:ListBucket",
+				"s3:PutObject",
+				"s3:DeleteObject",
+				"s3:GetBucketLocation"
+			],
+			"Resource": [
+				"arn:aws:s3:::erakiterrafromstatefiles",
+				"arn:aws:s3:::erakiterrafromstatefiles/*"
+			]
+		}
+	]
+}

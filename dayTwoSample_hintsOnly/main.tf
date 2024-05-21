@@ -11,28 +11,28 @@ terraform {
     bucket = "erakiterrafromstatefiles"
     key    = "s3.tfstate"
     region = "us-east-1"
-    profile = "eraki"
+    profile = "lama"
     }
 }
 
 # Configure aws provider
 provider "aws" {
     region = "us-east-1"
-    profile = "eraki"  # replace this with your profile name, If you're using the default one remove this line.
+    profile = "lama"  # replace this with your profile name, If you're using the default one remove this line.
 }
 
 
 
 # Create S3 Bucket
 resource "aws_s3_bucket" "s3_01" {
-  bucket = "eraki-s3-dev-01"
+  bucket = "lama-s3-dev-01"
 
   force_destroy       = true # force destroy even if the bucket not empty
 
   tags = {
-    Name        = "eraki-s3-dev-01-Tag"
+    Name        = "lama-s3-dev-01-Tag"
     Environment = "terraformChamps"
-    Owner       = "eraki"
+    Owner       = "lama"
   }
 }
 
