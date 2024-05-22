@@ -45,5 +45,47 @@ use IaC Terrafrom to build the following resource besides requirement specificat
   ## Code Sample:
 - [Day Two sample](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)
 - [Day Two sample](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/16-S3BucketArchive/configureProvider.tf)
+<br>
+<br>
+
+
+
+# Day Three task
+use IaC Terrafrom to build the following resource besides requirement specifications:
+
+*Today's Example will Create an Amazon S3 storage and configure the S3 Lifecycle rules as as the following:*
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
+- Create an S3 Bucket
+- Create Directories as (e.g. /log, /outgoing, /incomming)
+
+- Transition all files under /log to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
+
+- Transition all files under /log to Archive access (i.e. Glacier) 90 consecutive days after creation time.
+
+- Transition all files under /log to Deep Archive access (i.e. Glacier Deep Archive) 180 consecutive days after creation time.
+
+- Remove all files under /log 365 consecutive days after creation time.
+
+- Transition all files under /outgoing with tag "notDeepArchive" to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
+
+- Transition all files under /outgoing to Archive access (i.e. Glacier) with tag "notDeepArchive" 90 consecutive days after creation time.
+
+- Transition all files under /incoming with size between 1MB to 1G to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
+
+- Transition all files under /incoming with size between 1MB to 1G to Archive access (i.e. Glacier) 90 consecutive days after creation time.
+
+
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+
+  - Preferd to use variables.
+  ## Code Sample:
+- [Day Two sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-lifecycle-terraform-project-09)
+- [Day Two sample/Code](https://github.com/Mohamed-Eleraki/Terraform-Champs/blob/main/dayTwoSample_hintsOnly/main.tf)
+
 
 
