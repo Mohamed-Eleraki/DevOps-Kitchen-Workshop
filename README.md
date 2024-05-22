@@ -86,6 +86,7 @@ use IaC Terrafrom to build the following resource besides requirement specificat
   ## Code Sample:
 - [Day Two sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-lifecycle-terraform-project-09)
 - [Day Two sample/Code](https://github.com/Mohamed-Eleraki/Terraform-Champs/blob/main/dayTwoSample_hintsOnly/main.tf)
+- [Day Two sample/Storage Classes](https://www.canva.com/design/DAGFZObbdpk/ltK0rRtQ2cAquMCk0fgrEw/edit?utm_content=DAGFZObbdpk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
