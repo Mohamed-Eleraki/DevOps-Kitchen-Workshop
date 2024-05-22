@@ -52,12 +52,12 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 
 # Day Three task
 use IaC Terrafrom to build the following resource besides requirement specifications:
-
-*Today's Example will Create an Amazon S3 storage and configure the S3 Lifecycle rules as as the following:*
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 - Create an S3 Bucket
 - Create Directories as (e.g. /log, /outgoing, /incomming)
+<br><br>
+*Today's Example will Create an Amazon S3 storage and configure the S3 Lifecycle rules as as the following:*
 
 - Transition all files under /log to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
 
