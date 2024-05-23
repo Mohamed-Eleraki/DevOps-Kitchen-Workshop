@@ -100,9 +100,9 @@ use IaC Terrafrom to build the following resource besides requirement specificat
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 - Create IAM user named Ahmed *
     - With EC2 Administrator Policy _"AWS Managed policy"_
-- Create IAM user named Mahmoud *
-    - With S3 put and get objects restricted with specific source IP *
-- Create IAM useer named Mostafa *
+- Create IAM user named Mahmoud 
+    - With S3 put and get objects restricted with specific source IP 
+- Create IAM user named Mostafa 
     - With IAM Role have access to get objects from S3.
 
   
@@ -114,9 +114,9 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 
   - Preferd to use variables.
   ## Code Sample:
-- [Day Three sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terraform-project-06#heading-the-architecture-design-diagram)
-- [Day Three sample/Code i.e. iam creation, IP restriction, etc](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/09-S3BucketPolicy03/iam.tf)
-- [Day Three sample/Attache AWS Managed policy to IAM Role](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/14-lambda_run_SSM/iam.tf)
+- [Day four sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terraform-project-06#heading-the-architecture-design-diagram)
+- [Day four sample/Code i.e. iam creation, IP restriction, etc](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/09-S3BucketPolicy03/iam.tf)
+- [Day four sample/Attache AWS Managed policy to IAM Role](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/14-lambda_run_SSM/iam.tf)
 
 
 
