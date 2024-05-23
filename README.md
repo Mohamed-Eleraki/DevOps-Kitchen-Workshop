@@ -87,6 +87,39 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 - [Day Two sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-lifecycle-terraform-project-09)
 - [Day Two sample/Code](https://github.com/Mohamed-Eleraki/Terraform-Champs/blob/main/dayTwoSample_hintsOnly/main.tf)
 - [Day Two sample/Storage Classes](https://www.canva.com/design/DAGFZObbdpk/ltK0rRtQ2cAquMCk0fgrEw/edit?utm_content=DAGFZObbdpk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  <br>
+  <br>
+
+
+
+
+  # Day Four task
+use IaC Terrafrom to build the following resource besides requirement specifications:<br>
+
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
+- Create IAM user named Ahmed *
+    - With EC2 Administrator Policy _"AWS Managed policy"_
+- Create IAM user named Mahmoud *
+    - With S3 put and get objects restricted with specific source IP *
+- Create IAM useer named Mostafa *
+    - With IAM Role have access to get objects from S3.
+
+  
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+
+  - Preferd to use variables.
+  ## Code Sample:
+- [Day Three sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terraform-project-06#heading-the-architecture-design-diagram)
+- [Day Three sample/Code i.e. iam creation, IP restriction, etc](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/09-S3BucketPolicy03/iam.tf)
+- [Day Three sample/Attache AWS Managed policy to IAM Role](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/14-lambda_run_SSM/iam.tf)
+
+
+
 
 
 
