@@ -122,4 +122,37 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 
 
 
+  # Week Two task
+using AWS documentations to learn more about Amazon Simple storage - S3 Bucket, besides using agile systems to submit tasks for your self of steps that you're walk through i.e. track your self, at the end create a document that summarize what did you learn. The Goal of these requirements is: <br>
 
+- To get familiar with AWS Docs.
+- Dealing with Agile systems that organize your studying plan.
+- Learning how to type a professional documentations.
+
+At the end of the week you should submit your list of what did you learn, and what you intend to learn next week, This helps you to track you self more. Then share with the DevOps Workshop Champs community your summarization document in order to help advance your documentaions writing skills. <br><br>
+
+## Week Two Workshop 
+At the end of the week, submit the following workshop.<br>
+use IaC Terrafrom to build the following resource besides requirement specifications:<br>
+In the following task will walk thrugh the S3 creation from the AWS console and trying to build each option that appears on the console using **Terrafrom**
+
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
+
+- Create a general pupose Bucket.
+- Configure the object ownership as *"Bucket owner enforced"*.
+- Block all public access.
+- Enable bukcet versioning.
+- specify tags that include in the **Requirement Specifications** below.
+- Configure objects encryption as **"SSE-S3"**.
+- Enable Bucket key.
+- Disable object lock.
+- Configure lifecycle expiration object at 7 days.
+  
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+
+  - Preferd to use variables.
