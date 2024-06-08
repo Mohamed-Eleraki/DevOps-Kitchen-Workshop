@@ -127,7 +127,7 @@ using AWS documentations to learn more about Amazon Simple storage - S3 Bucket, 
 
 - To get familiar with AWS Docs.
 - Dealing with Agile systems that organize your studying plan.
-- Learning how to type a professional documentations.
+- Learn typing professional documentations.
 
 At the end of the week you should submit your list of what did you learn, and what you intend to learn next week, This helps you to track you self more. Then share with the DevOps Workshop Champs community your summarization document in order to help advance your documentaions writing skills. <br><br>
 
