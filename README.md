@@ -155,4 +155,8 @@ In the following task will walk thrugh the S3 creation from the AWS console and 
     Key: "Environment"   Value: "terraformChamps" <br>
     Key: "Owner"   Value: "<type_your_name_here>" <br>
 
-  - Preferd to use variables.
+  - Preferd to use variables. <br><br>
+
+
+  ## Code Sample:
+- [Week Two Workshop code samples - Lama](https://github.com/Lamaalmassry/Terraform-champs/tree/main/Week Two Workshop)<br><br>
