@@ -159,4 +159,4 @@ In the following task will walk thrugh the S3 creation from the AWS console and 
 
 
   ## Code Sample:
-- [Week Two Workshop code samples - Lama](https://github.com/Lamaalmassry/Terraform-champs/tree/main/Week Two Workshop)<br><br>
+- [Week two workshop code samples - Lama](https://github.com/Lamaalmassry/Terraform-champs/tree/main/Week%20Two%20Workshop)<br><br>
