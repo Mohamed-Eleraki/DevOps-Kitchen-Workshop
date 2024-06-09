@@ -174,6 +174,7 @@ Using AWS documentations to DIG DEEP more about S3 Bucket Policy, AWS CLI s3 com
 - Define the diffrencies between S3 and S3api commands.
 - Append new knowlege to your document.
 - Fork this repo and append you code samples.
+- Regarding AWS commands, Focusing on how to get and put objects.
 
 At the end of the week you should submit your **list of what did you learn**, and what you **intend to learn next week**, This helps you to track you self more. Then share with the DevOps Workshop Champs community your **summarization document** in order to help advance your documentaions writing skills. <br><br>
 
