@@ -177,6 +177,11 @@ Using AWS documentations to DIG DEEP more about S3 Bucket Policy, AWS CLI s3 com
 
 At the end of the week you should submit your **list of what did you learn**, and what you **intend to learn next week**, This helps you to track you self more. Then share with the DevOps Workshop Champs community your **summarization document** in order to help advance your documentaions writing skills. <br><br>
 
+## Resources 
+- [AWS DOCS - S3 policy](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html)
+- [AWS DOCS - S3 Commands reference](https://docs.aws.amazon.com/cli/latest/reference/s3/)
+- [AWS DOCS - S3api commands reference](https://docs.aws.amazon.com/cli/latest/reference/s3api/)<br><br>
+
 ## Week Two Workshop 
 
 Will be share with very soon
