@@ -160,3 +160,23 @@ In the following task will walk thrugh the S3 creation from the AWS console and 
 
   ## Code Sample:
 - [Week two workshop code samples - Lama](https://github.com/Lamaalmassry/Terraform-champs/tree/main/Week%20Two%20Workshop)<br><br>
+
+
+
+
+
+  # Week Three task
+Using AWS documentations to DIG DEEP more about S3 Bucket Policy, AWS CLI s3 command, and AWS CLI s3api commands, Besides Append new knowlege at your document, Also learn how to fork a GitHub repo, The all topic to cover listed below in details<br>
+
+- Dig deep into S3 policy
+- Get familiar with AWS CLI s3 commands.
+- Get familiar with AWS CLI s3api command,
+- Define the diffrencies between S3 and S3api commands.
+- Append new knowlege to your document.
+- Fork this repo and append you code samples.
+
+At the end of the week you should submit your **list of what did you learn**, and what you **intend to learn next week**, This helps you to track you self more. Then share with the DevOps Workshop Champs community your **summarization document** in order to help advance your documentaions writing skills. <br><br>
+
+## Week Two Workshop 
+
+Will be share with very soon
