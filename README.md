@@ -183,6 +183,35 @@ At the end of the week you should submit your **list of what did you learn**, an
 - [AWS DOCS - S3 Commands reference](https://docs.aws.amazon.com/cli/latest/reference/s3/)
 - [AWS DOCS - S3api commands reference](https://docs.aws.amazon.com/cli/latest/reference/s3api/)<br><br>
 
-## Week Two Workshop 
+## Week Three Workshop 
 
-Will be share with very soon
+At the end of the week, submit the following workshop.<br>
+use IaC Terrafrom to build the following resource besides requirement specifications:<br>
+In the following task will walk through the S3 creation, create IAM users and roles, configure S3 Policy, and test accessibility using AWS CLI s3 and s3api using IAM user credentials and IAM Role credentials using **Terrafrom**
+
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
+
+- Create a general purpose Bucket.
+- Create a Directory under created S3 called "logs".
+- Create two IAM Users (Mostafa, Taha).
+- Create IAM Role for Taha have s3:GetObject policy from logs directory only.
+- Set an S3 Policy allow Mostafa to put objects (i.e. s3:PutObject) at the entire S3.
+- Check accessability using AWS CLI:
+    - Utilizing AWS CLI s3 commands.
+    - Utilizing AWS CLI s3api commands.<br>
+- After all Create a fork from this repository, Then append your code at the code samples below and request to accept.
+  
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+  - Preferd to use variables. <br><br>
+
+
+  ## Code Sample:
+- [How to use IAM Role in Terminal](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terraform-project-06#heading-check-taha-user-permissions)
+- [Week Three workshop code samples](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)<br><br>
+
+
