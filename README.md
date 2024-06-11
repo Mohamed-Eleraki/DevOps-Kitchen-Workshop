@@ -200,7 +200,7 @@ In the following task will walk through the S3 creation, create IAM users and ro
 - Check accessability using AWS CLI:
     - Utilizing AWS CLI s3 commands.
     - Utilizing AWS CLI s3api commands.<br>
-- After all Create a fork from this repository, Then append your code at the code samples below and request to accept.
+- After all Create a fork from this repository, Then append your code at the code samples section below and request to accept.
   
   ## Requirement Specifications:
   - Resources must be created at us-east-1 region otherwise will fail.
