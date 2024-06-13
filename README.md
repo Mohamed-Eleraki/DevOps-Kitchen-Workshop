@@ -215,3 +215,46 @@ In the following task will walk through the S3 creation, create IAM users and ro
 - [Week Three workshop code samples](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)<br><br>
 
 
+  # Week Four task
+Using AWS documentations to learn about EC2 instance types, VPC endpoints, Besides Append new knowlege at your document, Also learn how to fork a GitHub repo, The all topic to cover listed below in details<br>
+
+- Learn about EC2 instance types.
+- VPC endpoints.
+- Append new knowlege to your document.
+- Fork this repo and append you code samples.
+- Design a diagram using draw.io of the below workshop.
+
+At the end of the week you should submit your **Weekly report of what did you learn**, and what you **intend to learn next week**, This helps you to track you self more. Then share with the DevOps Workshop Champs community your **summarization document** in order to help advance your documentaions writing skills. <br><br>
+
+## Resources 
+- [EC2 instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html?icmpid=docs_ec2_console)
+- [VPC endpoint](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html)<br><br>
+
+## Week Three Workshop 
+
+At the end of the week, submit the following workshop.<br>
+use IaC Terrafrom to build the following resource besides requirement specifications:<br>
+In the following task will walk through the s3 creation, ec2 creation, create IAM Role holds s3 full access permission and attache it to the ec2, Then test accessibility by sending file to s3 from the ec2 machine using AWS CLI s3 and s3api using **Terrafrom**
+
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
+
+- Create a general purpose Bucket.
+- Create a Directory under created S3 called "logs".
+- Create IAM Role for The ec2 machine have s3 full access aws managed policy.
+- Create an ec2 machine holds the above role.
+- Check accessability using AWS CLI, by sending a file to s3 bucket from The EC2 machine.
+- After all Create a fork from this repository, Then append your code at the code samples section below and request to accept.
+  
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+  - Preferd to use variables. <br><br>
+
+
+  ## Code Sample:
+- [Eraki Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terrafrom-project-03#heading-the-architecture-design-diagram)
+- [Week Three workshop code samples](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/06-S3Bucket)<br><br>
+
