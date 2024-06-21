@@ -17,9 +17,10 @@ To get started, Follow-up the steps below:
     - [Slack](https://join.slack.com/t/devopsworkshopchamps/shared_invite/zt-2k9a3a1wl-1eBg~WcGhKLFXp8vJjQ8tg)
     - [LinkedIn](https://www.linkedin.com/groups/9842482/)
     - [WhatsApp](https://chat.whatsapp.com/DbbYHFnoEo643LzL6uIpSE)
+    - [GitHub](https://github.com/Mohamed-Eleraki/Terraform-Champs)
 
 - Start workshops besides Terraform Course *(i.e. or any learning plan, as the workshops will not take a huge time)*
-- Check each workshop details on Slack as well (i.e. Slack devided to channel for each workshop, Check channel canvas)
+- Check each workshop details on Slack Or GitHub as well (i.e. Slack devided to channel for each workshop, Check channel canvas)
 - Follow-up each workshop details and submit it via the proper slack channel.
 - The community is open for any extra info. However, try to do it on your own first!
 
