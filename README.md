@@ -18,6 +18,7 @@ To get started, Follow-up the steps below:
     - [LinkedIn](https://www.linkedin.com/groups/9842482/)
     - [WhatsApp](https://chat.whatsapp.com/DbbYHFnoEo643LzL6uIpSE)
     - [GitHub](https://github.com/Mohamed-Eleraki/Terraform-Champs)<br>
+    - [Youtube](https://www.youtube.com/channel/UCnFV964FYhZQ1_g9WGUeMjA)
 
 - Start workshops besides Terraform Course *(i.e. or any learning plan, as the workshops will not take a huge time)*
 - Check each workshop details on Slack Or GitHub as well (i.e. Slack devided to channel for each workshop, Check channel canvas)
