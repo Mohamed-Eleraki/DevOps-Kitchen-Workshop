@@ -17,14 +17,14 @@ To get started, Follow-up the steps below:
     - [Slack](https://join.slack.com/t/devopsworkshopchamps/shared_invite/zt-2k9a3a1wl-1eBg~WcGhKLFXp8vJjQ8tg)
     - [LinkedIn](https://www.linkedin.com/groups/9842482/)
     - [WhatsApp](https://chat.whatsapp.com/DbbYHFnoEo643LzL6uIpSE)
-    - [GitHub](https://github.com/Mohamed-Eleraki/Terraform-Champs)
+    - [GitHub](https://github.com/Mohamed-Eleraki/Terraform-Champs)<br>
 
 - Start workshops besides Terraform Course *(i.e. or any learning plan, as the workshops will not take a huge time)*
 - Check each workshop details on Slack Or GitHub as well (i.e. Slack devided to channel for each workshop, Check channel canvas)
 - Follow-up each workshop details and submit it via the proper slack channel.
 - The community is open for any extra info. However, try to do it on your own first!
 
-Let's make great things happen together!
+Let's make great things happen together!<br><br>
 
 
 ## Agreed points
@@ -40,12 +40,12 @@ We have agreed on the listed points below:
 - Sharing what we learn on LinkedIn in order to get the appreciation, as it one of your motivation.
 - The admin role can create his workshop and will append it in our community workshop.
 - The admin role Should assist others in there task in a way that don't wast his time.
-- Delivering the tasks result should be on slack Channel.
+- Delivering the tasks result should be on slack Channel.<br><br>
 
  - **Community keys:**
-        - _*Monster*_ ☠️: Whose finished his tasks on time or before. 
-        - _*zombie*_ 🧟:  Whose walking very slow on his tasks.
-        - _*Duck:*🦆_ whose acting as watcher on the community after starting practice.
-        - _*Watcher:*👀_ whose acting as watcher on the community only.
+        - _*Monster*_ ☠️: Whose finished his tasks on time or before. <br>
+        - _*zombie*_ 🧟:  Whose walking very slow on his tasks.<br>
+        - _*Duck:*🦆_ whose acting as watcher on the community after starting practice.<br>
+        - _*Watcher:*👀_ whose acting as watcher on the community only.<br>
 
 That's it, as it's our community the discussion is open to append and adjust any points.
