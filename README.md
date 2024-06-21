@@ -42,7 +42,7 @@ We have agreed on the listed points below:
 - The admin role Should assist others in there task in a way that don't wast his time.
 - Delivering the tasks result should be on slack Channel.<br><br>
 
- - **Community keys:**
+ - **Community keys:**<br>
         - _*Monster*_ ☠️: Whose finished his tasks on time or before. <br>
         - _*zombie*_ 🧟:  Whose walking very slow on his tasks.<br>
         - _*Duck:*🦆_ whose acting as watcher on the community after starting practice.<br>
