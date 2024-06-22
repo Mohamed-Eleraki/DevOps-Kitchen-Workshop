@@ -230,11 +230,11 @@ At the end of the week you should submit your **Weekly report of what did you le
 - [EC2 instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html?icmpid=docs_ec2_console)
 - [VPC endpoint](https://docs.aws.amazon.com/whitepapers/latest/aws-privatelink/what-are-vpc-endpoints.html)<br><br>
 
-## Week Three Workshop 
+## Week Four Workshop 
 
 At the end of the week, submit the following workshop.<br>
 use IaC Terraform to build the following resource besides requirement specifications:<br>
-In the following task will walk through the s3 creation, ec2 creation, create IAM Role holds s3 full access permission and attache it to the ec2, Then test accessibility by sending file to s3 from the ec2 machine using AWS CLI s3 and s3api using **Terrafrom**
+In the following task will walk through the s3 creation, ec2 creation, create IAM Role holds s3 full access permission and attach it to the ec2, Then test accessibility by sending file to s3 from the ec2 machine using AWS CLI s3 and s3api using **Terrafrom**
 
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use different name that others _(i.e. specify a unique name for state file key)_
