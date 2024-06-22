@@ -255,51 +255,26 @@ In the following task will walk through the s3 creation, ec2 creation, create IA
     Key: "Owner"   Value: "<type_your_name_here>" <br>
   - Preferd to use variables. <br><br>
 
-## Week Five Workshop
+## Week Five Task
+Using AWS documentations to learn about Amazon Relation Database RDS, Besides Append new knowlege at your document, Also learn how to fork a GitHub repo, The all topic to cover listed below in details<br>
 
-# Amazon RDS Deep Dive Assignment
+- Dig Deep into RDS.
+- Append new knowlege to your document.
+- Fork this repo and append you code samples.
+- Design a diagram using draw.io of the below workshop.
+This exercise will help you track your learning progress, ensure you understand key concepts of AWS RDS, and prepare you for the upcoming hands-on lab using Terraform.<br>
 
-## Objective
-Using AWS documentation to DIG DEEP into Amazon RDS, enhancing your understanding and appending new knowledge to your document.
+At the end of the week you should submit your **Weekly report of what did you learn**, and what you **intend to learn next week**, This helps you to track you self more. Then share with the DevOps Workshop Champs community your **summarization document** in order to help advance your documentaions writing skills. <br><br>
 
-## Topics to Explore
+## Resources 
+- [AWS RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) <br><br>
 
-1. **Overview and Benefits of Amazon RDS**
-   - Overview
-   - Managed Service
-   - Supported Database Engines
+## Week Four Workshop 
 
-2. **Architecture Overview and Features**
-   - Components
-   - Features
-
-3. **Security and Compliance**
-   - Encryption
-   - Access Control
-   - Compliance
-
-4. **Pricing and Cost Optimization**
-   - Pricing Models
-   - Factors Affecting Cost
-
-## Instructions
-- Explore each topic using the AWS RDS documentation.
-- Summarize the key points for each topic.
-- Document any new insights or interesting points you discover.
-
-## Submission
-At the end of the week, submit your compiled document or presentation. Your submission should include:
-- Summaries for each of the topics listed above.
-- Additional insights or interesting points.
-- A reflection on what you learned and how it can be applied in real-world scenarios.
-
-This exercise will help you track your learning progress, ensure you understand key concepts of AWS RDS, and prepare you for the upcoming hands-on lab using Terraform.
-
-
+Comming soon!!
 
 
 
   ## Code Sample:
-- [Eraki Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terrafrom-project-03#heading-the-architecture-design-diagram)
-- [Week Three workshop code samples](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/06-S3Bucket)<br><br>
+Comming soon!!
 
