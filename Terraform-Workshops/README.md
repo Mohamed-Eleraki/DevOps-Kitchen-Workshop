@@ -255,6 +255,49 @@ In the following task will walk through the s3 creation, ec2 creation, create IA
     Key: "Owner"   Value: "<type_your_name_here>" <br>
   - Preferd to use variables. <br><br>
 
+## Week Five Workshop
+
+# Amazon RDS Deep Dive Assignment
+
+## Objective
+Using AWS documentation to DIG DEEP into Amazon RDS, enhancing your understanding and appending new knowledge to your document.
+
+## Topics to Explore
+
+1. **Overview and Benefits of Amazon RDS**
+   - Overview
+   - Managed Service
+   - Supported Database Engines
+
+2. **Architecture Overview and Features**
+   - Components
+   - Features
+
+3. **Security and Compliance**
+   - Encryption
+   - Access Control
+   - Compliance
+
+4. **Pricing and Cost Optimization**
+   - Pricing Models
+   - Factors Affecting Cost
+
+## Instructions
+- Explore each topic using the AWS RDS documentation.
+- Summarize the key points for each topic.
+- Document any new insights or interesting points you discover.
+
+## Submission
+At the end of the week, submit your compiled document or presentation. Your submission should include:
+- Summaries for each of the topics listed above.
+- Additional insights or interesting points.
+- A reflection on what you learned and how it can be applied in real-world scenarios.
+
+This exercise will help you track your learning progress, ensure you understand key concepts of AWS RDS, and prepare you for the upcoming hands-on lab using Terraform.
+
+
+
+
 
   ## Code Sample:
 - [Eraki Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-mft-terrafrom-project-03#heading-the-architecture-design-diagram)
