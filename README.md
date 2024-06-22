@@ -11,17 +11,17 @@ So, Are you ready to embrace a new journey that will elevate your skills? Let's 
 
 To get started, Follow-up the steps below:
 
-- Study the [terraform basisc](https://onedrive.live.com/?id=7AE6F56050D1BAC3!s8b1186d69f674164b9c7b72f4922580e&resid=7AE6F56050D1BAC3!s8b1186d69f674164b9c7b72f4922580e&cid=7ae6f56050d1bac3&ithint=folder&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy83QUU2RjU2MDUwRDFCQUMzL0V0YUdFWXRubjJSQnVjZTNMMGtpV0E0QjFmdVVLcDlZRXcyd1JhYWtKQmk4SGc&migratedtospo=true) *_(i.e. till video number 11)_*
+- Study the [terraform basics ](https://onedrive.live.com/?id=7AE6F56050D1BAC3!s8b1186d69f674164b9c7b72f4922580e&resid=7AE6F56050D1BAC3!s8b1186d69f674164b9c7b72f4922580e&cid=7ae6f56050d1bac3&ithint=folder&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy83QUU2RjU2MDUwRDFCQUMzL0V0YUdFWXRubjJSQnVjZTNMMGtpV0E0QjFmdVVLcDlZRXcyd1JhYWtKQmk4SGc&migratedtospo=true) *_(i.e. till video number 11)_*
 
-- Join **DevOps Kitchen workshop** comunity:
+- Join **DevOps Kitchen workshop** community:
     - [Slack](https://join.slack.com/t/devopsworkshopchamps/shared_invite/zt-2k9a3a1wl-1eBg~WcGhKLFXp8vJjQ8tg)
     - [LinkedIn](https://www.linkedin.com/groups/9842482/)
     - [WhatsApp](https://chat.whatsapp.com/DbbYHFnoEo643LzL6uIpSE)
-    - [GitHub](https://github.com/Mohamed-Eleraki/Terraform-Champs)<br>
+    - [GitHub](https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop)<br>
     - [Youtube](https://www.youtube.com/channel/UCnFV964FYhZQ1_g9WGUeMjA)
 
 - Start workshops besides Terraform Course *(i.e. or any learning plan, as the workshops will not take a huge time)*
-- Check each workshop details on Slack Or GitHub as well (i.e. Slack devided to channel for each workshop, Check channel canvas)
+- Check each workshop details on Slack Or GitHub as well (i.e. Slack divided to channel for each workshop, Check channel canvas)
 - Follow-up each workshop details and submit it via the proper slack channel.
 - The community is open for any extra info. However, try to do it on your own first!
 
