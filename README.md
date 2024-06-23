@@ -2,9 +2,9 @@
 
 Hello, Champs!
 
-**DevOps Kitchen Workshop** is an open-source community focuses on workshops, Workshops and Labs in general is a very imporant steps that advance your skills, as it's a self-paced study. we considered whether we should start learning together in a way that advance our experience while *_not wasting our time_*. by *_Crafting Multiple Workshops_* in multiple DevOps tools.
+**DevOps Kitchen Workshop** community focuses on workshops, Workshops and Labs in general is a very important steps that advance your skills, as it's a self-paced study. we considered whether we should start learning together in a way that advance our experience while *_not wasting our time_*. by *_Crafting Multiple Workshops_* in multiple DevOps tools.
 
-As mentinoed, the community is open-source which means any one have the ability to append workshops, provide online sessions, Get Admin privilege to groups (Slack, LinkedIn, and WhatsApp) However, To get the admin rule you should finish-up Three weeks of workshops on time.
+The community is open-source which means any one have the ability to append workshops, provide online sessions, Get Admin privilege to groups (Slack, LinkedIn, and WhatsApp) However, To get the admin rule you should finish-up Three weeks of workshops on time.
 
 ## 🌟 Welcome to the DevOps Kitchen! 🌟
 So, Are you ready to embrace a new journey that will elevate your skills? Let's dive right in!
