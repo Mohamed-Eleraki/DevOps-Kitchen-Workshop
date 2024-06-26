@@ -5,6 +5,7 @@ At the start I will provide an AWS account for each champion, along with a list 
 # Day one task
 use IaC Terrafrom to build the following resource besides requirement specifications:
 
+- Create a diagram of this deployment.
 - Create VPC.
 - Create Public subnet.
 - Create internet gateway attached to the subent.
@@ -27,6 +28,7 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 # Day Two task
 use IaC Terrafrom to build the following resource besides requirement specifications:
 
+- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
 - Create S3 Bucket.
 - Enable S3 Bucker Versioning.
@@ -52,6 +54,8 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 
 # Day Three task
 use IaC Terrafrom to build the following resource besides requirement specifications:
+
+- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 - Create an S3 Bucket
@@ -96,6 +100,7 @@ use IaC Terrafrom to build the following resource besides requirement specificat
   # Day Four task
 use IaC Terrafrom to build the following resource besides requirement specifications:<br>
 
+- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 - Create IAM user named Ahmed *
@@ -136,6 +141,7 @@ At the end of the week, submit the following workshop.<br>
 use IaC Terrafrom to build the following resource besides requirement specifications:<br>
 In the following task will walk thrugh the S3 creation from the AWS console and trying to build each option that appears on the console using **Terrafrom**
 
+- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 
@@ -189,6 +195,7 @@ At the end of the week, submit the following workshop.<br>
 use IaC Terrafrom to build the following resource besides requirement specifications:<br>
 In the following task will walk through the S3 creation, create IAM users and roles, configure S3 Policy, and test accessibility using AWS CLI s3 and s3api using IAM user credentials and IAM Role credentials using **Terrafrom**
 
+- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 
@@ -236,6 +243,7 @@ At the end of the week, submit the following workshop.<br>
 use IaC Terraform to build the following resource besides requirement specifications:<br>
 In the following task will walk through the s3 creation, ec2 creation, create IAM Role holds s3 full access permission and attach it to the ec2, Then test accessibility by sending file to s3 from the ec2 machine using AWS CLI s3 and s3api using **Terrafrom**
 
+- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use different name that others _(i.e. specify a unique name for state file key)_
 
@@ -271,8 +279,40 @@ At the end of the week you should submit your **Weekly report of what did you le
 
 ## Week Five Workshop 
 
-Comming soon!!
+At the end of the week, submit the following workshop.<br>
+use IaC Terraform to build the following resource besides requirement specifications:<br>
+In the following task will walk through the RDS creation, Then test accessibility by pgadmin program.
 
+- Create a diagram of this deployment.
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use different name that others _(i.e. specify a unique name for state file key)_
+
+- Create a VPC called vpc-01
+- Create a Subnet called subnet-01
+- Create a Security Group called sg-01
+    - Allows inbound 5432 port form all.
+    - Allows outbound role for all.
+
+- Create a subnet group of RDS Holds the created subnet.
+- Create a RDS instance of PostgreSQL latest versionn.
+    - define allocate storage as 20
+    - engine as postgres
+    - engine_version as LATEST
+    - instance_calss as db.t3.micro
+    - name as postgresqldatabase
+    - username as postgres
+    - password as CHOOSE ONE
+    - db_security_group_ids as created
+    - vpc_security_group_ids as created
+    - skip_final_snapshot as true
+    - DON'T FORGET THE TAGS
+  
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+  - Preferd to use variables. <br><br>
 
 
   ## Code Sample:
