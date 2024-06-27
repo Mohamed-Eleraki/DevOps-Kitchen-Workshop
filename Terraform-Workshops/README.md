@@ -306,6 +306,7 @@ In the following task will walk through the RDS creation, Then test accessibilit
     - vpc_security_group_ids as created
     - skip_final_snapshot as true
     - DON'T FORGET THE TAGS
+    - after deployed, Check connection using pgadmin program from you local device.
   
   ## Requirement Specifications:
   - Resources must be created at us-east-1 region otherwise will fail.
