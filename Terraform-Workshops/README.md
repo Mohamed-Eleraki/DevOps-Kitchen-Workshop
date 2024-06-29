@@ -318,5 +318,6 @@ In the following task will walk through the RDS creation, Then test accessibilit
 
   ## Code Sample:
   - [Build RDS resources - Lama](https://github.com/Lamaalmassry/Terraform-champs/tree/main/Week%20Five%20Workshop)
+  - [Build RDS resources - Mostafa](https://github.com/mostafa12345/weekfive)
   - [Build RDS resource - Eraki](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/22-deployBasicRDS)
 
