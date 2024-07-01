@@ -294,7 +294,7 @@ In the following task will walk through the RDS creation, Then test accessibilit
     - Allows outbound role for all.
 
 - Create a subnet group of RDS Holds the created subnet.
-- Create a RDS instance of PostgreSQL latest versionn.
+- Create a RDS instance of PostgreSQL latest version.
     - define allocate storage as 20
     - engine as postgres
     - engine_version as LATEST
@@ -321,3 +321,47 @@ In the following task will walk through the RDS creation, Then test accessibilit
   - [Build RDS resources - Mostafa](https://github.com/mostafa12345/weekfive)
   - [Build RDS resource - Eraki](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/22-deployBasicRDS)
 
+
+
+# Week Six Task
+Using AWS documentations to complete learn about Amazon Relation Database RDS, Besides Append new knowlege at your document, Also learn how to fork a GitHub repo, The all topic to cover listed below in details<br>
+
+- Dig Deep into RDS.
+- Append new knowlege to your document.
+- Fork this repo and append you code samples.
+- Design a diagram using draw.io of the below workshop.
+This exercise will help you track your learning progress, ensure you understand key concepts of AWS RDS, and prepare you for the upcoming hands-on lab using Terraform.<br>
+
+At the end of the week you should submit your **Weekly report of what did you learn**, and what you **intend to learn next week**, This helps you to track you self more. Then share with the DevOps Workshop Champs community your **summarization document** in order to help advance your documentaions writing skills. <br><br>
+
+## Resources 
+- [AWS RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) <br><br>
+
+## Week Six Workshop 
+
+At the end of the week, submit the following workshop.<br>
+use IaC Terraform to build the following resource besides requirement specifications:<br>
+In the following task will walk through the RDS creation, Then test accessibility by a bastion server.
+
+- Create a diagram of this deployment.
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
+    - Consider to use different name that others _(i.e. specify a unique name for state file key)_
+
+- Deploy a Higly-available RDS in multiple Avalibility zones i.e. multi-az instance
+- The RDS structure should be as primary and standby with out replica read
+- Both of RDS using the same security group.
+    - Allows inbound 5432 port form all.
+    - Allows outbound role for all.
+- The RDS should NOT be publicly accessable.
+- Create a bastion host at the same VPC and connect to The RDS using psql commands
+
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+  - Preferd to use variables. <br><br>
+
+
+  ## Code Sample:
+Comming Soon!!
