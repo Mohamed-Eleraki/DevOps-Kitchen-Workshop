@@ -327,6 +327,8 @@ In the following task will walk through the RDS creation, Then test accessibilit
 Using AWS documentations to complete learn about Amazon Relation Database RDS, Besides Append new knowlege at your document, Also learn how to fork a GitHub repo, The all topic to cover listed below in details<br>
 
 - Dig Deep into RDS.
+- Besides covering the differences between Multi-az and read replicas
+- Besides covering the differences between synchronous and Asynchronous replication
 - Append new knowlege to your document.
 - Fork this repo and append you code samples.
 - Design a diagram using draw.io of the below workshop.
