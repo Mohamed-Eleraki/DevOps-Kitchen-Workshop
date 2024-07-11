@@ -283,12 +283,12 @@ In the following task will walk through the RDS creation, Then test accessibilit
     - Consider to use different name that others _(i.e. specify a unique name for state file key)_
 
 - Create a VPC called vpc-01
-- Create a Subnet called subnet-01
+- Create Subnet called subnet-01, subnet-02.
 - Create a Security Group called sg-01
     - Allows inbound 5432 port form all.
     - Allows outbound role for all.
 
-- Create a subnet group of RDS Holds the created subnet.
+- Create a subnet group of RDS Holds the created subnets.
 - Create a RDS instance of PostgreSQL latest version.
     - define allocate storage as 20
     - engine as postgres
