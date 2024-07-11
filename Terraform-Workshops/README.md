@@ -28,7 +28,6 @@ use IaC Terrafrom to build the following resource besides requirement specificat
 # Day Two task
 use IaC Terrafrom to build the following resource besides requirement specifications:
 
-- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
 - Create S3 Bucket.
 - Enable S3 Bucker Versioning.
