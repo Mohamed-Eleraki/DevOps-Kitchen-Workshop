@@ -98,7 +98,6 @@ use IaC Terrafrom to build the following resource besides requirement specificat
   # Day Four task
 use IaC Terrafrom to build the following resource besides requirement specifications:<br>
 
-- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 - Create IAM user named Ahmed *
@@ -139,7 +138,6 @@ At the end of the week, submit the following workshop.<br>
 use IaC Terrafrom to build the following resource besides requirement specifications:<br>
 In the following task will walk thrugh the S3 creation from the AWS console and trying to build each option that appears on the console using **Terrafrom**
 
-- Create a diagram of this deployment.
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 
@@ -197,7 +195,6 @@ In the following task will walk through the S3 creation, create IAM users and ro
 - Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket
     - Consider to use difrrent name that others _(i.e. specify a unique name for state file key)_
 
-- Create a general purpose Bucket.
 - Create a Directory under created S3 called "logs".
 - Create two IAM Users (Mostafa, Taha).
 - Create IAM Role for Taha have s3:GetObject policy from logs directory only.
