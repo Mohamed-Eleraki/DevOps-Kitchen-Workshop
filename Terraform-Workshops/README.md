@@ -346,12 +346,12 @@ In the following task will walk through the RDS creation, Then test accessibilit
     - Consider to use different name that others _(i.e. specify a unique name for state file key)_
 
 - Deploy a Higly-available RDS in multiple Avalibility zones i.e. multi-az instance
-- The RDS structure should be as primary and standby with out replica read
+- The RDS structure should be as primary and standby with out read replica.
 - Both of RDS using the same security group.
     - Allows inbound 5432 port form all.
     - Allows outbound role for all.
 - The RDS should NOT be publicly accessable.
-- Create a bastion host at the same VPC and connect to The RDS using psql commands
+- Create a bastion host at the same VPC and connect to The RDS using psql commands.
 
   ## Requirement Specifications:
   - Resources must be created at us-east-1 region otherwise will fail.
@@ -386,7 +386,37 @@ At the end of the week you should submit your **Weekly report of what did you le
 
 
 ## Week Seven Workshop 
-Comming Soon!!
+
+At the end of the week, submit the following workshop.<br>
+use IaC Terraform to build the following resource besides requirement specifications:<br>
+In the following task will walk through the RDS creation, Then test accessibility by a bastion server.
+
+- Create a diagram of this deployment.
+- Use S3 to store Terraform statefile using "erakiterrafromstatefiles" bucket _(i.e. In case you have an IAM user on my personal account; if not, use your own instead)_
+    - Consider to use different name that others _(i.e. specify a unique name for state file key)_
+
+- Deploy a Higly-available RDS in multiple Avalibility zones i.e. multi-az instance
+- The RDS structure should be as primary and standby with out read replica.
+- Both of RDS using the same security group.
+    - Allows inbound 5432 port form all.
+    - Allows outbound role for all.
+- The RDS should NOT be publicly accessable.
+- consider the following options
+    - Manage master user password using secret manager without iteration.
+    - Deny major changes updates on the database.
+    - Allow mior changes updates on the database.
+    - Set up backup retention period _(i.e. with your specified time)_
+    - Copy tags to snapshots.
+    - Delete auto backup.
+    - Encrypt Storage at rest.
+- Create a bastion host at the same VPC and connect to The RDS using psql commands.
+
+  ## Requirement Specifications:
+  - Resources must be created at us-east-1 region otherwise will fail.
+  - Resources must have tags as below otherwise will fail <br>
+    Key: "Environment"   Value: "terraformChamps" <br>
+    Key: "Owner"   Value: "<type_your_name_here>" <br>
+  - Preferd to use variables. <br><br>
 
 
   ## Code Sample:
