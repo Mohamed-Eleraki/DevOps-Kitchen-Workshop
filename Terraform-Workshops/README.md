@@ -421,4 +421,4 @@ In the following task will walk through the RDS creation, Then test accessibilit
 
 
   ## Code Sample:
-Comming Soon!!
+- [Deply an advanaced RDS](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/24-advancedRDSconfigs)
