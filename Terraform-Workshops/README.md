@@ -402,9 +402,9 @@ In the following task will walk through the RDS creation, Then test accessibilit
     - Allows outbound role for all.
 - The RDS should NOT be publicly accessable.
 - consider the following options
-    - Manage master user password using secret manager without iteration.
+    - Manage master user password using secret manager.
     - Deny major changes updates on the database.
-    - Allow mior changes updates on the database.
+    - Allow minor changes updates on the database.
     - Set up backup retention period to 7 days.
     - Copy tags to snapshots.
     - Delete auto backup.
