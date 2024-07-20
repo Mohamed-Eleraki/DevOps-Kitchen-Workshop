@@ -405,10 +405,11 @@ In the following task will walk through the RDS creation, Then test accessibilit
     - Manage master user password using secret manager without iteration.
     - Deny major changes updates on the database.
     - Allow mior changes updates on the database.
-    - Set up backup retention period _(i.e. with your specified time)_
+    - Set up backup retention period to 7 days.
     - Copy tags to snapshots.
     - Delete auto backup.
     - Encrypt Storage at rest.
+    - enabling Blue/Green deployment.
 - Create a bastion host at the same VPC and connect to The RDS using psql commands.
 
   ## Requirement Specifications:
