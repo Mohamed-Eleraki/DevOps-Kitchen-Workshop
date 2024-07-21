@@ -37,7 +37,7 @@ We have agreed on the listed points below:
 - It's our community, Therefore based on your discipline will gain an admin role on the community.
 - I'm not intent to invite all the people around the globe, Just we focusing on individuals that interested in our workshops.
 - The Community goal, Is to help each other and advance our experience.
-- Set a constant time meeting for each day at 2 PM Cairo time, In case any one needs help will join the call.
+- Set a catch up call every Thursday at 8:30 PM.
 - Sharing what we learn on LinkedIn in order to get the appreciation, as it one of your motivation.
 - The admin role can create his workshop and will append it in our community workshop.
 - The admin role Should assist others in there task in a way that don't wast his time.
