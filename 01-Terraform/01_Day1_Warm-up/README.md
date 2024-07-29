@@ -1,1 +1,1 @@
-[Dr. Mostafa Mosharafa](https://upload.wikimedia.org/wikipedia/commons/7/70/Ali_Mosharrafa_1.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Ali_Mosharrafa_1.jpg" alt="Example Image" style="width:600px;"/>
