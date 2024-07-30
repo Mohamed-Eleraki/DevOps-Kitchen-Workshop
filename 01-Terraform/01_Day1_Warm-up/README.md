@@ -2,7 +2,7 @@
  This is a simple task to get you started with Day One, Open-up the Day1_Warm-up above to start-out you lab. and Enjooooy. <br><br><br><br>
 
 
-## MOTD - Message of the day <br><br><br><br>
+## MOTD - Message of the day <br><br>
 ### Dr. Mostafa Mosharafa
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Ali_Mosharrafa_1.jpg" alt="Example Image" style="width:600px;"/>
