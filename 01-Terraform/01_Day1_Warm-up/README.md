@@ -1,4 +1,4 @@
-# Welcome to Day One task
+# 🌟 Welcome to Day One task 🌟
  This is a simple task to get you started with Day One, Open-up the Day1_Warm-up above to start-out you lab. and Enjooooy. <br><br><br><br>
 
 
