@@ -55,6 +55,6 @@ That's it, as it's our community the discussion is open to append and adjust any
 
 # Score board
 
-| Teams       | Success Deployment        | Clean Code        | Architecture Diagram        | Agile        | Learning Document Bonus        | Total        |
-| -------------- | --------------- | --------------- | -------------- | --------------- | --------------- | --------------- | --------------- |
-| ![2M Teams](https://1drv.ms/i/c/7AE6F56050D1BAC3/Ecj0BrV6RadPv2NNtoMLfg8BtqjRqbHiqU375HbS6VrZlw?e=3V5ahV) | 0 | 0 | | 0 | 0 | 0 | 0 | 0 |
+| Teams | Success Deployment | Clean Code | Architecture Diagram | Agile | Learning Document Bonus | Total |
+| ----- | ------------------ | ---------- | -------------------- | ----- | ----------------------- | ----- |
+| ![2M Teams](https://via.placeholder.com/150) | 0 | 0 | 0 | 0 | 0 | 0 |
