@@ -53,7 +53,7 @@ That's it, as it's our community the discussion is open to append and adjust any
 
 ----------------------------------------------------------------------------------------------------- <br><br>
 
-# Score board
+# Scoreboard
 
 | Teams | Success Deployment | Clean Code | Architecture Diagram | Agile | Learning Document Bonus | Total |
 | ----- | ------------------ | ---------- | -------------------- | ----- | ----------------------- | ----- |
