@@ -57,4 +57,4 @@ That's it, as it's our community the discussion is open to append and adjust any
 
 | Teams | Success Deployment | Clean Code | Architecture Diagram | Agile | Learning Document Bonus | Total |
 | ----- | ------------------ | ---------- | -------------------- | ----- | ----------------------- | ----- |
-| ![2M Teams](https://via.placeholder.com/150) | 0 | 0 | 0 | 0 | 0 | 0 |
+| ![2M Teams](/teamsLogo/2.png) | 0 | 0 | 0 | 0 | 0 | 0 |
