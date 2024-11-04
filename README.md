@@ -58,3 +58,4 @@ That's it, as it's our community the discussion is open to append and adjust any
 | Teams | Success Deployment (10) | Clean Code (10) | Architecture Diagram (10) | Agile (5) | Learning Document (5) | Bonus (N/A) | Total |
 | ----- | ------------------ | ---------- | -------------------- | ----- | ----------------------- | ----- | ----- |
 | ![Lama El Masry]([/teamsLogo/2.png](https://www.linkedin.com/in/lama-almassry%F0%9F%87%B5%F0%9F%87%B8-86710917a/)) | 10 | 10 | 7 | 0 | 0 | 0 | 27/42 |
+| ![Mostaga Amer]([/teamsLogo/2.png](https://www.linkedin.com/in/mostafa-amer95/)) | 0 | 9 | 7 | 0 | 0 | 0 | 16/42 |
