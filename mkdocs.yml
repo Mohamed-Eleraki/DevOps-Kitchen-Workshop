@@ -74,7 +74,7 @@ markdown_extensions:
 
 nav:
   # - Welcome to DevOps-Kitchen-Workshop - AWS cost Export Toold Docs: index.md
-  - Welcome to DevOps-Kitchen-Workshop: index.md
+  - Welcome: index.md
   - Cloud Providers:
       - AWS:
           - Overview: aws/index.md

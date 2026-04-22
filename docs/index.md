@@ -1,6 +1,6 @@
 # DevOps Kitchen Workshop
 
-Hello, Champs!
+Hello Champs!
 
 **DevOps Kitchen Workshop** community focuses on workshops, Workshops and Labs in general is a very important steps that advance your skills, as it's a self-paced study. we considered whether we should start learning together in a way that advance our experience while *_not wasting our time_*. by *_Crafting Multiple Workshops_* in multiple DevOps tools.
 
