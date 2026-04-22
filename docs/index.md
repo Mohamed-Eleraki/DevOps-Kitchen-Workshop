@@ -47,5 +47,3 @@ We have agreed on the listed points below:
         - _*Watcher:*👀_ whose acting as watcher on the community only.<br>
 
 That's it, as it's our community the discussion is open to append and adjust any points.
-
------------------------------------------------------------------------------------------------------ <br><br>
