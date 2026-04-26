@@ -1,0 +1,83 @@
+site_name: DevOps-Kitchen-Workshop
+site_url: https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop
+site_description: DevOps Kitchen Workshop community focuses on workshops, Workshops and Labs in general is a very important steps that advance your skills, as it's a self-paced study. we considered whether we should start learning together in a way that advance our experience while not wasting our time. by Crafting Multiple Workshops in multiple DevOps tools. The community is open-source which means any one have the ability to append workshops, provide online sessions, Get Admin privilege to groups (Slack, LinkedIn, and WhatsApp) However, To get the admin rule you should finish-up Three weeks of workshops on time.
+copyright: Copyright &copy; 2026 DevOps Kitchen Workshop. All rights reserved.
+
+repo_url: https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop
+edit_uri: edit/main/docs/
+repo_name: Mohamed-Eleraki/DevOps-Kitchen-Workshop
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      primary: blue
+      accent: light blue
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      primary: blue
+      accent: light blue
+      scheme: slate
+      toggle:
+        icon: material/brightness-5
+        name: Switch to system preference
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+    - navigation.sidebar
+    - navigation.collapse
+    - navigation.autoCollapsed
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra_css:
+  - stylesheets/extra.css
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/DevOps-Kitchen-Workshop/
+  version:
+    provider: mike
+
+# fetch date from docstring
+plugins:
+  - mkdocstrings # must install mkdocstrings first
+  - mermaid2
+  - search
+  - autorefs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+nav:
+  # - Welcome to DevOps-Kitchen-Workshop - AWS cost Export Toold Docs: index.md
+  - Welcome: index.md
+  - Cloud Providers:
+      - AWS:
+          - Overview: aws/index.md
+      - Azure:
+          - Overview: azure/index.md
+
