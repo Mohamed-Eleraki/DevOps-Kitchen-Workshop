@@ -1,6 +1,6 @@
 # S3 Bucket - Disable ACL
 
-## #day_two - Bucket owner enforced and Bucket policy
+## _#day_two - Bucket owner enforced and Bucket policy_
 
 ForgTech company wanna test your ability to type down a clean code by Deploying the structure of very simple resources. This will help you
 to build a good reputation.
