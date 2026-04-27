@@ -35,7 +35,6 @@ using terraform destroy command)_ even if the bucket is not empty.
 
 ## Code Sample:
 
-- [Day Two sample/Blog](https://mohamed-eleraky.hashnode.dev/aws-s3bucket-lifecycle-terraform-project-09)
 - [Day Two sample/video](https://www.youtube.com/watch?v=CyaJXc78uP0&t=2101s)
-- [Day Two sample/Code](https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/blob/main/dayTwoSample_hintsOnly/main.tf)
+- [Day Two sample/Blog](https://eraki.hashnode.dev/aws-s3bucket-lifecycle-terraform-project-09#heading-terraform-resources-code-steps)
 - [Day Two sample/Storage Classes](https://www.canva.com/design/DAGFZObbdpk/ltK0rRtQ2cAquMCk0fgrEw/edit)
