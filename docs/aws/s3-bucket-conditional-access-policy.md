@@ -17,8 +17,8 @@ using terraform destroy command)_ even if the bucket is not empty.
 
 1. Resources must be created at the us-east-1 region.
 2. Resources must have tags as below:
-    a. Key: “Environment”, Value: “terraformChamps”
-    b. Key: “Owner”, Value: <“Your_first_name“>
+    - Key: “Environment”, Value: “terraformChamps”
+    - Key: “Owner”, Value: <“Your_first_name“>
 3. Preferd to use variables
 4. Create & Share a document that Explains what you learn.
 
