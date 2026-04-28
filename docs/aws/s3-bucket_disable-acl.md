@@ -18,18 +18,11 @@ Use IaC Terraform to build all resources and consider the below requirements spe
     b. Key: “Owner”, Value: <“Your_first_name“>
 3. Preferd to use variables
 
-## Code Sample:
-
-- [Day Two sample](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)
-- [Day Two sample](https://github.com/Mohamed-Eleraki/terraform/blob/main/AWS_Demo/16-S3BucketArchive/configureProvider.tf)
-
-
 FrogTech company has the challenge of automating a manual process, They are using S3 as a public storage for external/internal parties
 authenticating using IAM credentials.
 
 There are two main S3 buckets 1. frogtech-us-external and 2. frogtech-us-internal, The Challenge lies in the manual actions that
 operators do daily in order to move files from one S3 to another.
-
 
 You’re requested to automate this process using Lambda function, utilizing the native SDK of AWS _(i.e. Python boto3 SDK,)_ FrogTech
 engineers have no idea about lambda. Therefore you as an expert, should provide them with a document containing the **basics** of lambda,
