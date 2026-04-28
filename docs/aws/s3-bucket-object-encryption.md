@@ -1,6 +1,6 @@
 # S3 - S3 Bucket object encryption
 
-## #week_two - understand object encryption
+## _#week_two - understand object encryption_
 
 **_duration: 1 week_**
 
