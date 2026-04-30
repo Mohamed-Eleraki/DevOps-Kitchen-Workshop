@@ -1,8 +1,9 @@
 # S3 - S3 Bucket object encryption
 
 ## _#week_two - understand object encryption_
+<br>
 
-**_duration: 1 week_**
+**_duration: 1 week_**<br><br>
 
 ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
 good reputation.
@@ -15,6 +16,9 @@ enable versioning, disable object lock, and delete log files 7 consecutive days 
 
 The FrogTech security team has some concerns about this implementation as well, including enabling object encryption as “SSE-S3” and
 enabling the Bucket key.
+
+<br>
+<br>
 
 Use IaC Terraform to build all resources and consider the below requirements specifications.
 
