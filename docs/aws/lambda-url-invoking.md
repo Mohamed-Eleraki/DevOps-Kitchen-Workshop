@@ -1,8 +1,9 @@
 # Lambda - URL Invoking
 
 ## #week_ten - Invoke function via function URL
+<br>
 
-**_duration: 1 week_**
+**_duration: 1 week_**<br><br>
 
 ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
 good reputation.
@@ -21,13 +22,16 @@ command, FrogTech Developers will be using curl command to trigger & pass values
 FrogTech is required to use high-level HCL language techniques, by Crafting a subnet resources module, Package your library
 dependencies as a ZIP file, and using it in the lambda layer instead.
 
+<br>
+<br>
+
 Use IaC Terraform to build all resources and consider the below requirements specifications.
 
 1. Resources must be created at the us-east-1 region.
 2. Resources must have common tags combination as below:
 3. Common tags:
-    a. Key: “Environment”, Value: “terraformChamps”
-    b. Key: “Owner”, Value: <“Your_first_name“>
+    - Key: “Environment”, Value: “terraformChamps”
+    - Key: “Owner”, Value: <“Your_first_name“>
 
 **Bouns**
 
