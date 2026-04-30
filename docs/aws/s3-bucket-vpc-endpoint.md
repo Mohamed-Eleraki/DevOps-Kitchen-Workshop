@@ -1,8 +1,8 @@
 # S3 Bucket | VPC Endpoint
-
 ## _#week_four - Accessing S3 via VPC Endpoint_
+<br>
 
-**_duration: 1 week_**
+**_duration: 1 week_**<br><br>
 
 ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
 good reputation.
@@ -17,11 +17,12 @@ and provision an IAM Role, ec2 machine _“i.e. The web application server“_ H
 managed policy.
 
 After provisioning the required Resources, Check the user accessibility utilizing AWS CLI _e.g. aws s3 command, and AWS CLI s3api
-command._
+command._ 
 
 The FrogTech security team has some concerns about this implementation as well, including enabling object encryption as “SSE-S3” and
 enabling the Bucket key.
 
+<br>
 
 Use IaC Terraform to build all resources and consider the below requirements specifications.
 
@@ -33,7 +34,6 @@ Use IaC Terraform to build all resources and consider the below requirements spe
         - Key: “Owner”, Value: <“Your_first_name“>
 
 **Bouns**
-
 1. Build an Architecture diagram of the deployment resources.
 2. Build a personal document consisting of what you learn with deep details and resources _i.e. this will assist you to get back and refresh_
     _your knowledge later_
