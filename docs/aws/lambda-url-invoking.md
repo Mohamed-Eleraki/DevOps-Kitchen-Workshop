@@ -37,6 +37,7 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 
 1. Build an Architecture diagram of the deployment resources.
 2. Build your own blog and create an article explaining lambda tricks, instead of using documents.
+<br>
 
 
 ## References:
