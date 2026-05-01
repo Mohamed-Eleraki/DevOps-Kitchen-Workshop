@@ -38,6 +38,7 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 2. Build a personal document consisting of what you learn with deep details and resources _i.e. this will assist you to get back and refresh_
     _your knowledge later_
 
+<br>
 
 ## References:
 
