@@ -15,7 +15,7 @@ requirements:
 1. List the `us-east-1` region VPCs.
 2. Create a Terraform file that contains the required details to create the fetchd VPCs.
 3. Consider using function-based:
-   a. List functions under utils directory.
+   a. List functions under the `utils` directory.
       ```
       1 utils
       2 |__ function.py
