@@ -15,15 +15,20 @@ requirements:
 1. List the `us-east-1` region VPCs.
 2. Create a Terraform file that contains the required details to create the fetchd VPCs.
 3. Consider using function-based:
+
    a. List functions under the `utils` directory.
-      ```
+
+      ```text
       1 utils
       2 |__ function.py
       3 |__ function2.py
       4 main.py
       ```
+
    b. A function does one thing only.
+
    c. List related functions in the same file.
+
 5. Consider using the main file to call all the functions and handle their dependencies.
 6. Consider docstring and type hint.
 7. Consider following the Python PEP code standardization (i.e. by installing vscode extensions like pylint, Black)
