@@ -1,13 +1,15 @@
 # AWS Boto3 - Python to Terraform
 
-## _#week_ninteen - Boto3 SDK_
+## _#week_twenty - Boto3 SDK_
 <br>
 
 **_duration: 1 week_**<br><br>
 
-ForgTech company wanna test your ability to deliver their requirements utilizing Python, This will help you build a good reputation.
+ForgTech company wanna test your ability to deliver their requirements utilizing AWS Python SDK libraries, This will help you build
+a good reputation.
 
-The purpose of this task is to build a CLI tool using Python/Boto3 calls that create terraform code for AWS resources.
+The purpose of this task is to build a CLI tool using Python/Boto3 calls to create Terraform code for AWS
+resources.
 
 The FrogTech Cloud Team requests you to implement local Python scripts with AWS Boto3 SDK that meet the following
 requirements:
@@ -29,9 +31,9 @@ requirements:
 
    c. List related functions in the same file.
 
-5. Consider using the main file to call all the functions and handle their dependencies.
-6. Consider docstring and type hint.
-7. Consider following the Python PEP code standardization (i.e. by installing vscode extensions like pylint, Black)
+4. Consider using the main file to call all the functions and handle their dependencies.
+5. Consider docstring and type hint.
+6. Consider following the Python PEP code standardization (i.e. by installing vscode extensions like pylint, Black)
 
 As well as build a Readme file explaining what your tool is doing and how to use it.
 
