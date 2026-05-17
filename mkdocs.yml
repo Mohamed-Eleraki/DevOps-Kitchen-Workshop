@@ -1,7 +1,7 @@
-site_name: DevOps-Kitchen-Workshop
+site_name: DevOps-Kitchen-Workshops
 site_url: https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop
 site_description: DevOps Kitchen Workshop community focuses on workshops, Workshops and Labs in general is a very important steps that advance your skills, as it's a self-paced study. we considered whether we should start learning together in a way that advance our experience while not wasting our time. by Crafting Multiple Workshops in multiple DevOps tools. The community is open-source which means any one have the ability to append workshops, provide online sessions, Get Admin privilege to groups (Slack, LinkedIn, and WhatsApp) However, To get the admin rule you should finish-up Three weeks of workshops on time.
-copyright: Copyright &copy; 2026 DevOps Kitchen Workshop. All rights reserved.
+copyright: Copyright &copy; 2026 DevOps Kitchen Workshop Team. All rights reserved.
 
 repo_url: https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop
 edit_uri: edit/main/docs/
@@ -73,11 +73,46 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  # - Welcome to DevOps-Kitchen-Workshop - AWS cost Export Toold Docs: index.md
   - Welcome: index.md
   - Cloud Providers:
       - AWS:
-          - Overview: aws/index.md
-      - Azure:
-          - Overview: azure/index.md
+          - Getting Started: aws/getting-started.md
+          - Warm-up: aws/warm-up.md
+          - Disable ACL: aws/disable-acl.md
+          - S3 Bucket - lifecycle: aws/s3-bucket-lifecycle.md
+          - S3 Bucket - Conditional Access policy: aws/s3-bucket-conditional-access-policy.md
+          - S3 Bucket - Object Encryption: aws/s3-bucket-object-encryption.md
+          - S3 Bucket - Access Policy: aws/s3-bucket-access-policy-cli-comm.md
+          - S3 Bucket - VPC Endpoint: aws/s3-bucket-vpc-endpoint.md
+          - Single RDS Deployment: aws/single-rds-deployment.md
+          - Multi-az RDS Deployment: aws/multi-az-rds-deployment.md
+          - Advanced multi-az RDS Deployment: aws/advanced-multi-az-rds-deployment.md
+          - Lambda Function: aws/lambda-function-week-eight.md
+          - Lambda Function - Invoke SSM Document: aws/lambda-function-invoke-ssm-document-week-nine.md
+          - Lambda Function - URL Invoking: aws/lambda-url-invoking.md
+          - Backend - HCP: aws/backend-hcp-week-twentyfive.md
+          - AWS Pipeline: aws/aws-pipeline-deliver-DevSecOps.md
 
+      - CircleCI:
+          - Getting Started: circleci/getting-started.md
+          - Automate TGW Deployment: circleci/automate-tgw-deployment.md
+          - Highly available design deployment: circleci/highly-available-design-deployment.md
+
+      - AWS Python Boto3:
+          - Getting Started: aws-python-boto3/getting-started.md
+          - Fetching AWS Resources: aws-python-boto3/fetching-aws-resources-details.md
+          - AWS Boto3 S3 Calls: aws-python-boto3/s3-calls.md
+          - AWS Python to Terraform: week-ninteen.md
+          - AWS Python to Terraform - Public Docs: aws-python-boto3/python-to-terraform.md
+          - AWS Python Package PyPi: aws-python-boto3/AWS-Python-Package-PyPi.md
+
+      - GCP:
+          - Getting Started: gcp/getting-started.md
+          - GCP Cloud Run Deployment: gcp/cloud-run-deployment.md
+
+      - Azure:
+          - Getting Started: azure/getting-started.md
+          - Manage Azure basic network components: azure/manage-azure-basic-network-components-week-twentysix.md
+          
+          - Azure DevOps - Branch Policies & Security: azure/azure-devops-branch-policies-security.md
+          - Azure DevOps - Environment: azure/azure-devops-environment.md
