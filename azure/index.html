@@ -10,27 +10,31 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/CircleCi/highly-available-design-deployment/">
+        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/azure/">
       
       
+        <link rel="prev" href="../GCP/lab-name/">
+      
+      
+        <link rel="next" href="lab-name/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Highly available Design deployment - DevOps-Kitchen-Workshops</title>
+        <title>Overview - DevOps-Kitchen-Workshops</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,11 +53,11 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#highly-available-design-deployment" class="md-skip">
+        <a href="#azure-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="DevOps-Kitchen-Workshops" class="md-header__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
+    <a href=".." title="DevOps-Kitchen-Workshops" class="md-header__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -118,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Highly available Design deployment
+              Overview
             
           </span>
         </div>
@@ -246,7 +250,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="DevOps-Kitchen-Workshops" class="md-nav__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
+    <a href=".." title="DevOps-Kitchen-Workshops" class="md-nav__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -276,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -300,8 +304,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -312,11 +318,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -337,7 +343,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -404,7 +410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/" class="md-nav__link">
+      <a href="../aws/" class="md-nav__link">
         
   
   
@@ -432,7 +438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/getting-started.md" class="md-nav__link">
+      <a href="../aws/getting-started.md" class="md-nav__link">
         
   
   
@@ -460,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/warm-up.md" class="md-nav__link">
+      <a href="../aws/warm-up.md" class="md-nav__link">
         
   
   
@@ -488,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/disable-acl.md" class="md-nav__link">
+      <a href="../aws/disable-acl.md" class="md-nav__link">
         
   
   
@@ -516,7 +522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-lifecycle/" class="md-nav__link">
+      <a href="../aws/s3-bucket-lifecycle/" class="md-nav__link">
         
   
   
@@ -544,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-conditional-access-policy/" class="md-nav__link">
+      <a href="../aws/s3-bucket-conditional-access-policy/" class="md-nav__link">
         
   
   
@@ -572,7 +578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-object-encryption/" class="md-nav__link">
+      <a href="../aws/s3-bucket-object-encryption/" class="md-nav__link">
         
   
   
@@ -600,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-access-policy-cli-comm/" class="md-nav__link">
+      <a href="../aws/s3-bucket-access-policy-cli-comm/" class="md-nav__link">
         
   
   
@@ -628,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-vpc-endpoint/" class="md-nav__link">
+      <a href="../aws/s3-bucket-vpc-endpoint/" class="md-nav__link">
         
   
   
@@ -656,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/single-rds-deployment.md" class="md-nav__link">
+      <a href="../aws/single-rds-deployment.md" class="md-nav__link">
         
   
   
@@ -684,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/multi-az-rds-deployment.md" class="md-nav__link">
+      <a href="../aws/multi-az-rds-deployment.md" class="md-nav__link">
         
   
   
@@ -712,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/advanced-multi-az-rds-deployment.md" class="md-nav__link">
+      <a href="../aws/advanced-multi-az-rds-deployment.md" class="md-nav__link">
         
   
   
@@ -740,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/lambda-function-week-eight.md" class="md-nav__link">
+      <a href="../aws/lambda-function-week-eight.md" class="md-nav__link">
         
   
   
@@ -768,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/lambda-function-invoke-ssm-document-week-nine.md" class="md-nav__link">
+      <a href="../aws/lambda-function-invoke-ssm-document-week-nine.md" class="md-nav__link">
         
   
   
@@ -796,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/lambda-url-invoking/" class="md-nav__link">
+      <a href="../aws/lambda-url-invoking/" class="md-nav__link">
         
   
   
@@ -824,7 +830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/backend-hcp-week-twentyfive.md" class="md-nav__link">
+      <a href="../aws/backend-hcp-week-twentyfive.md" class="md-nav__link">
         
   
   
@@ -852,7 +858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/aws-pipeline-deliver-DevSecOps.md" class="md-nav__link">
+      <a href="../aws/aws-pipeline-deliver-DevSecOps.md" class="md-nav__link">
         
   
   
@@ -880,7 +886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/lab-name/" class="md-nav__link">
+      <a href="../aws/lab-name/" class="md-nav__link">
         
   
   
@@ -965,7 +971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../CircleCi/" class="md-nav__link">
         
   
   
@@ -993,7 +999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../circleci/getting-started.md" class="md-nav__link">
+      <a href="../circleci/getting-started.md" class="md-nav__link">
         
   
   
@@ -1021,7 +1027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../circleci/automate-tgw-deployment.md" class="md-nav__link">
+      <a href="../circleci/automate-tgw-deployment.md" class="md-nav__link">
         
   
   
@@ -1049,7 +1055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../circleci/highly-available-design-deployment.md" class="md-nav__link">
+      <a href="../circleci/highly-available-design-deployment.md" class="md-nav__link">
         
   
   
@@ -1077,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lab-name/" class="md-nav__link">
+      <a href="../CircleCi/lab-name/" class="md-nav__link">
         
   
   
@@ -1162,7 +1168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/" class="md-nav__link">
+      <a href="../aws-python-boto3/" class="md-nav__link">
         
   
   
@@ -1190,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/getting-started.md" class="md-nav__link">
+      <a href="../aws-python-boto3/getting-started.md" class="md-nav__link">
         
   
   
@@ -1218,7 +1224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/fetching-aws-resource-details/" class="md-nav__link">
+      <a href="../aws-python-boto3/fetching-aws-resource-details/" class="md-nav__link">
         
   
   
@@ -1246,7 +1252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/s3-calls/" class="md-nav__link">
+      <a href="../aws-python-boto3/s3-calls/" class="md-nav__link">
         
   
   
@@ -1274,7 +1280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../week-ninteen.md" class="md-nav__link">
+      <a href="../week-ninteen.md" class="md-nav__link">
         
   
   
@@ -1302,7 +1308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/python-to-terraform/" class="md-nav__link">
+      <a href="../aws-python-boto3/python-to-terraform/" class="md-nav__link">
         
   
   
@@ -1330,7 +1336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/AWS-Python-Package-PyPi/" class="md-nav__link">
+      <a href="../aws-python-boto3/AWS-Python-Package-PyPi/" class="md-nav__link">
         
   
   
@@ -1358,7 +1364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/lab-name/" class="md-nav__link">
+      <a href="../aws-python-boto3/lab-name/" class="md-nav__link">
         
   
   
@@ -1443,7 +1449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GCP/" class="md-nav__link">
+      <a href="../GCP/" class="md-nav__link">
         
   
   
@@ -1471,7 +1477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gcp/getting-started.md" class="md-nav__link">
+      <a href="../gcp/getting-started.md" class="md-nav__link">
         
   
   
@@ -1499,7 +1505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gcp/cloud-run-deployment.md" class="md-nav__link">
+      <a href="../gcp/cloud-run-deployment.md" class="md-nav__link">
         
   
   
@@ -1527,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GCP/lab-name/" class="md-nav__link">
+      <a href="../GCP/lab-name/" class="md-nav__link">
         
   
   
@@ -1560,6 +1566,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1569,11 +1577,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
         
           
           <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
@@ -1594,7 +1602,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1609,10 +1617,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../azure/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1628,6 +1663,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whats-inside" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What’s inside
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1640,7 +1706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/getting-started.md" class="md-nav__link">
+      <a href="getting-started.md" class="md-nav__link">
         
   
   
@@ -1668,7 +1734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
+      <a href="manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
         
   
   
@@ -1696,7 +1762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/azure-devops-branch-policies-security.md" class="md-nav__link">
+      <a href="azure-devops-branch-policies-security.md" class="md-nav__link">
         
   
   
@@ -1724,7 +1790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/azure-devops-environment.md" class="md-nav__link">
+      <a href="azure-devops-environment.md" class="md-nav__link">
         
   
   
@@ -1752,7 +1818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/lab-name/" class="md-nav__link">
+      <a href="lab-name/" class="md-nav__link">
         
   
   
@@ -1815,21 +1881,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#week_thirteenfourteen-higly-available-application-database-deployment-utilizing-circleci-cicd-terraform-iac" class="md-nav__link">
+  <a href="#whats-inside" class="md-nav__link">
     <span class="md-ellipsis">
       
-        #week_Thirteen&amp;Fourteen - Higly available Application &amp; Database deployment utilizing CircleCI CI/CD &amp; Terraform IaC
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        References:
+        What’s inside
       
     </span>
   </a>
@@ -1856,68 +1911,14 @@
   
 
 
-<h1 id="highly-available-design-deployment">Highly available Design deployment</h1>
-<h2 id="week_thirteenfourteen-higly-available-application-database-deployment-utilizing-circleci-cicd-terraform-iac"><em>#week_Thirteen&amp;Fourteen - Higly available Application &amp; Database deployment utilizing CircleCI CI/CD &amp; Terraform IaC</em></h2>
-<p><br></p>
-<p><strong><em>duration: 2 weeks</em></strong><br><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
-good reputation.</p>
-<p>The FrogTech Architecture team requested implementing a highly available application and database in The Private VPC that had been
-created last lab.</p>
-<p>The design Should follow:</p>
-<ol>
-<li>Deploying a Highly available application Using an Auto-scaling group considering each server in a different availability zone.</li>
-<li>Provision RDS Multi-az.</li>
-<li>Building a simple application <em>(i.e. using Python, etc.. View resources below)</em> ensuing successful communication between the App and
-    Database.</li>
-</ol>
-<p>As well as Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you in getting back
-and refreshing your knowledge later.</em></p>
-<p>By following The ForgTech deployment policy, you should deliver this deployment in an automated pipeline using CircleCI and follow the
-DevOps Team pipeline structure standards as The Pipeline stages should be as follows:</p>
-<ol>
-<li>Preparation stage: This includes the installation and preparation steps <em>(i.e. install AWS CLI, Terraform, and Terraform Initialization)</em> the
-    installation must be done by Commands map.</li>
-<li>Plan Stage: This includes the terraform validation and plan commands; The plan must done by using the output file <em>(i.e. tfplan file,)</em> and
-    Then Saving the output plan file using CircleCI workspace to use it in another step.</li>
-<li>Manual approval: Pause the pipeline until Reviewed &amp; Approved by the checker engineer.</li>
-<li>Terraform apply: This includes attaching the output plan saved file in the plan stage and then Starting provision resources.
-<br><br>
-<br></li>
-</ol>
-<p>Consider the below requirements specifications.</p>
-<ol>
-<li>Resources must be created at the us-east-1 region.</li>
-<li>Store state file backend into HCP | S3.</li>
-<li>Resources must have common tags combination as below:</li>
-<li>Common tags:<ul>
-<li>Key: “Environment”, Value: “terraformChamps”</li>
-<li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;
-<br><br></li>
-</ul>
-</li>
-</ol>
-<p><strong>Bonus</strong></p>
-<ol>
-<li>Build an Architecture diagram of the deployment resources.</li>
-<li>Append an extra step command of the Plan stage reviewing specific parts of attributes using jq command.</li>
-<li>Crafting multiple HCP workspaces.
-<br><br></li>
-</ol>
-<p><br></p>
-<h2 id="references">References:</h2>
+<h1 id="azure-overview">Azure Overview</h1>
+<p>Welcome to the Azure section of DevOps Kitchen Workshop.</p>
+<p>This section currently contains community lab content and will be expanded with Azure guides and network workshops.</p>
+<h2 id="whats-inside">What’s inside</h2>
 <ul>
-<li><a href="https://github.com/Mohamed-Eleraki/spring-boot-app">Sample application + Database communication</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/blob/main/02-CircleCI/01-Automate_TGW_deployment/D-Automate_Transit_gateway_deployment.pdf">Previous lab</a></li>
-<li><a href="https://circleci.com/docs/reference/configuration-reference/#commands">Example: Centralized outbound routing to the internet</a></li>
-<li><a href="https://circleci.com/docs/reference/configuration-reference/#commands">CircleCI - Commands map</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml">jq code example</a></li>
-<li><a href="https://stackoverflow.com/questions/59079708/how-to-use-jq-to-extract-a-particular-field-from-a-terraform-state-file">jq command example</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/circleci-project-setup/.circleci/config.yml">CircleCI pipeline sample</a></li>
-<li><a href="https://mohamed-eleraky.hashnode.dev/aws-transitgateway-terrafrom-project-02">Transit gateway Article</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/05-Article2-TransitGateway">Transit gateway code sample</a></li>
-<li><a href="https://www.youtube.com/watch?v=x0pSa_M9WSM">Transit gateway online session</a></li>
+<li>Azure lab examples</li>
 </ul>
+<p>Check back soon for more Azure content and walkthroughs.</p>
 
 
 
@@ -2006,10 +2007,10 @@ DevOps Team pipeline structure standards as The Pipeline stages should be as fol
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.sidebar", "navigation.collapse", "navigation.autoCollapsed", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "header.autohide", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.sidebar", "navigation.collapse", "navigation.autoCollapsed", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "header.autohide", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
