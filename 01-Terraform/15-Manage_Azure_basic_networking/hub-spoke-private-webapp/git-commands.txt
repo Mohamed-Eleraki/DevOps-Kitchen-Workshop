@@ -1,0 +1,29 @@
+# Commands to push to GitHub repository
+
+# 1. Navigate to project directory
+cd e:\.DEVOPS\terraform-azure-network
+
+# 2. Initialize git (if not already initialized)
+git init
+
+# 3. Add remote repository
+git remote add origin https://github.com/ES-Mohamed609/DevOps-Kitchen-Workshop.git
+
+# 4. Create .gitignore file first
+# (This will be created separately)
+
+# 5. Add all files
+git add .
+
+# 6. Commit changes
+git commit -m "Add Azure Hub-Spoke Network Architecture with Private Web App"
+
+# 7. Pull latest changes from main branch
+git pull origin main --allow-unrelated-histories
+
+# 8. Push to the specific folder
+# Note: You'll need to reorganize files to match the repo structure
+# The files should go into: 01-Terraform/15-Manage_Azure_basic_networking/
+
+# 9. Push to repository
+git push origin main
