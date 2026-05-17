@@ -76,6 +76,7 @@ nav:
   - Welcome: index.md
   - Cloud Providers:
       - AWS:
+          - Overview: aws/index.md
           - Getting Started: aws/getting-started.md
           - Warm-up: aws/warm-up.md
           - Disable ACL: aws/disable-acl.md
@@ -92,27 +93,35 @@ nav:
           - Lambda Function - URL Invoking: aws/lambda-url-invoking.md
           - Backend - HCP: aws/backend-hcp-week-twentyfive.md
           - AWS Pipeline: aws/aws-pipeline-deliver-DevSecOps.md
+          - Lab Name: aws/lab-name.md
 
       - CircleCI:
+          - Overview: CircleCi/index.md
           - Getting Started: circleci/getting-started.md
           - Automate TGW Deployment: circleci/automate-tgw-deployment.md
           - Highly available design deployment: circleci/highly-available-design-deployment.md
+          - Lab Name: CircleCi/lab-name.md
 
       - AWS Python Boto3:
+          - Overview: aws-python-boto3/index.md
           - Getting Started: aws-python-boto3/getting-started.md
-          - Fetching AWS Resources: aws-python-boto3/fetching-aws-resources-details.md
+          - Fetching AWS Resources: aws-python-boto3/fetching-aws-resource-details.md
           - AWS Boto3 S3 Calls: aws-python-boto3/s3-calls.md
           - AWS Python to Terraform: week-ninteen.md
           - AWS Python to Terraform - Public Docs: aws-python-boto3/python-to-terraform.md
           - AWS Python Package PyPi: aws-python-boto3/AWS-Python-Package-PyPi.md
+          - Lab Name: aws-python-boto3/lab-name.md
 
       - GCP:
+          - Overview: GCP/index.md
           - Getting Started: gcp/getting-started.md
           - GCP Cloud Run Deployment: gcp/cloud-run-deployment.md
+          - Lab Name: GCP/lab-name.md
 
       - Azure:
+          - Overview: azure/index.md
           - Getting Started: azure/getting-started.md
           - Manage Azure basic network components: azure/manage-azure-basic-network-components-week-twentysix.md
-          
           - Azure DevOps - Branch Policies & Security: azure/azure-devops-branch-policies-security.md
           - Azure DevOps - Environment: azure/azure-devops-environment.md
+          - Lab Name: azure/lab-name.md
