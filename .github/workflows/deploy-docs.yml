@@ -38,7 +38,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material mkdocstrings mkdocstrings-python mkdocs-mermaid2-plugin
           pip install -e ${{ github.workspace }}
 
