@@ -1,0 +1,18 @@
+/* Add visible division between main sidebar sections */
+.md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--section {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
+
+/* Avoid drawing a top border on the first sidebar section */
+.md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--section:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Add subtle separation between secondary table-of-contents items */
+.md-nav--secondary .md-nav__item + .md-nav__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
