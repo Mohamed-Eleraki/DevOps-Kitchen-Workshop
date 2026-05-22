@@ -1,6 +1,6 @@
 # Multi-az RDS Deployment
 
-## #week_six - multi-az RDS deployment
+## _#week_six - multi-az RDS deployment_
 <br>
 
 **_duration: 1 week_**
