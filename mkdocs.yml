@@ -88,15 +88,15 @@ nav:
           - Multi-az RDS Deployment: aws/multi-az-rds-deployment.md
           - Advanced multi-az RDS Deployment: aws/advanced-multi-az-rds-deployment.md
           - Lambda Function - Manage File Transfers: aws/lambda.md
-          - Lambda Function - Invoke SSM Document: aws/lambda-function-invoke-ssm-document.md
+          - Lambda Function - Invoke SSM Document: aws/lambda-invoke-ssm-document.md
           - Lambda Function - URL Invoking: aws/lambda-url-invoking.md
           - Backend - HCP: aws/aws-backend-hcp.md
           - AWS Pipeline: aws/devsecops-checkov.md
 
       - CircleCI:
           - Overview: CircleCi/index.md
-          - Automate TGW Deployment - NONE: circleci/automate-tgw-deployment.md
-          - Highly available design deployment: circleci/highly-available-design-deployment.md
+          - Automate TGW Deployment - NONE: CircleCi/automate-tgw-deployment.md
+          - Highly available design deployment: CircleCi/highly-available-design-deployment.md
 
       - AWS Python Boto3:
           - Overview: aws-python-boto3/index.md
