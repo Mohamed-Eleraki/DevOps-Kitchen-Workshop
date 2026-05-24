@@ -108,9 +108,7 @@ nav:
 
       - GCP:
           - Overview: GCP/index.md
-          - Getting Started: gcp/getting-started.md
           - GCP Cloud Run Deployment: gcp/cloud-run-deployment.md
-          - Lab Name: GCP/lab-name.md
 
       - Azure:
           - Overview: azure/index.md
