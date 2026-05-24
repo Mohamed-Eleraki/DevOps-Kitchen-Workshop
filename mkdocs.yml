@@ -77,9 +77,8 @@ nav:
   - Cloud Providers:
       - AWS:
           - Overview: aws/index.md
-          - Getting Started: aws/getting-started.md
           - Warm-up: aws/warm-up.md
-          - Disable ACL: aws/disable-acl.md
+          - Disable ACL: aws/s3-bucket-disable-acl.md
           - S3 Bucket - lifecycle: aws/s3-bucket-lifecycle.md
           - S3 Bucket - Conditional Access policy: aws/s3-bucket-conditional-access-policy.md
           - S3 Bucket - Object Encryption: aws/s3-bucket-object-encryption.md
@@ -88,12 +87,11 @@ nav:
           - Single RDS Deployment: aws/single-rds-deployment.md
           - Multi-az RDS Deployment: aws/multi-az-rds-deployment.md
           - Advanced multi-az RDS Deployment: aws/advanced-multi-az-rds-deployment.md
-          - Lambda Function: aws/lambda-function-week-eight.md
-          - Lambda Function - Invoke SSM Document: aws/lambda-function-invoke-ssm-document-week-nine.md
+          - Lambda Function - Manage File Transfers: aws/lambda.md
+          - Lambda Function - Invoke SSM Document: aws/lambda-function-invoke-ssm-document.md
           - Lambda Function - URL Invoking: aws/lambda-url-invoking.md
-          - Backend - HCP: aws/backend-hcp-week-twentyfive.md
-          - AWS Pipeline: aws/aws-pipeline-deliver-DevSecOps.md
-          - Lab Name: aws/lab-name.md
+          - Backend - HCP: aws/aws-backend-hcp.md
+          - AWS Pipeline: aws/devsecops-checkov.md
 
       - CircleCI:
           - Overview: CircleCi/index.md

@@ -1,6 +1,6 @@
 # Deliver DevSecOps
 
-## _#week_fifteen&sixteen - Terraform code scanning with checkov_
+## _#week_twentysix - Terraform code scanning with checkov_
 <br>
 
 **_duration: 2 weeks_**
