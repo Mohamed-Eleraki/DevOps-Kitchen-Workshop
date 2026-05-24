@@ -95,10 +95,8 @@ nav:
 
       - CircleCI:
           - Overview: CircleCi/index.md
-          - Getting Started: circleci/getting-started.md
-          - Automate TGW Deployment: circleci/automate-tgw-deployment.md
+          - Automate TGW Deployment - NONE: circleci/automate-tgw-deployment.md
           - Highly available design deployment: circleci/highly-available-design-deployment.md
-          - Lab Name: CircleCi/lab-name.md
 
       - AWS Python Boto3:
           - Overview: aws-python-boto3/index.md
