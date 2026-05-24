@@ -34,4 +34,6 @@ jobs:
           pip install mkdocs mkdocs-material mkdocstrings mkdocstrings-python mkdocs-mermaid2-plugin
 
       - name: Build MkDocs site
-        run: mkdocs gh-deploy --force --clean
+        run: |
+          mkdocs build
+          mkdocs gh-deploy --force --clean
