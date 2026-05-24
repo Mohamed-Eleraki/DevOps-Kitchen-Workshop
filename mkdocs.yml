@@ -108,12 +108,10 @@ nav:
 
       - GCP:
           - Overview: GCP/index.md
-          - GCP Cloud Run Deployment: gcp/cloud-run-deployment.md
+          - GCP Cloud Run Deployment - NONE: gcp/cloud-run-deployment.md
 
       - Azure:
           - Overview: azure/index.md
-          - Getting Started: azure/getting-started.md
-          - Manage Azure basic network components: azure/manage-azure-basic-network-components-week-twentysix.md
-          - Azure DevOps - Branch Policies & Security: azure/azure-devops-branch-policies-security.md
-          - Azure DevOps - Environment: azure/azure-devops-environment.md
-          - Lab Name: azure/lab-name.md
+          - Manage Azure basic network components - NONE: azure/manage-azure-basic-network-components-week-twentysix.md
+          - Azure DevOps - Branch Policies & Security - NONE: azure/azure-devops-branch-policies-security.md
+          - Azure DevOps - Environment - NONE: azure/azure-devops-environment.md
