@@ -10,20 +10,24 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/code-ref/lab-name/">
+        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/aws/lambda/">
       
       
+        <link rel="prev" href="../advanced-multi-az-rds-deployment/">
+      
+      
+        <link rel="next" href="../lambda-url-invoking/">
       
       
         
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>AWS Labs - DevOps-Kitchen-Workshops</title>
+        <title>Lambda Function - Manage File Transfers - DevOps-Kitchen-Workshops</title>
       
     
     
@@ -78,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#aws-labs" class="md-skip">
+        <a href="#week_eight-lambda" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              AWS Labs
+              Lambda Function - Manage File Transfers
             
           </span>
         </div>
@@ -300,8 +304,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -312,11 +318,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -337,7 +343,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -352,6 +358,8 @@
                 
   
   
+    
+  
   
   
     
@@ -361,11 +369,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -386,7 +394,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -404,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -432,35 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../aws/warm-up.md" class="md-nav__link">
+      <a href="../warm-up/" class="md-nav__link">
         
   
   
@@ -488,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/disable-acl.md" class="md-nav__link">
+      <a href="../s3-bucket-disable-acl/" class="md-nav__link">
         
   
   
@@ -516,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-lifecycle/" class="md-nav__link">
+      <a href="../s3-bucket-lifecycle/" class="md-nav__link">
         
   
   
@@ -544,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-conditional-access-policy/" class="md-nav__link">
+      <a href="../s3-bucket-conditional-access-policy/" class="md-nav__link">
         
   
   
@@ -572,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-object-encryption/" class="md-nav__link">
+      <a href="../s3-bucket-object-encryption/" class="md-nav__link">
         
   
   
@@ -600,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-access-policy-cli-comm/" class="md-nav__link">
+      <a href="../s3-bucket-access-policy-cli-comm/" class="md-nav__link">
         
   
   
@@ -628,7 +608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/s3-bucket-vpc-endpoint/" class="md-nav__link">
+      <a href="../s3-bucket-vpc-endpoint/" class="md-nav__link">
         
   
   
@@ -656,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/single-rds-deployment.md" class="md-nav__link">
+      <a href="../single-rds-deployment/" class="md-nav__link">
         
   
   
@@ -684,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/multi-az-rds-deployment.md" class="md-nav__link">
+      <a href="../multi-az-rds-deployment/" class="md-nav__link">
         
   
   
@@ -712,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/advanced-multi-az-rds-deployment.md" class="md-nav__link">
+      <a href="../advanced-multi-az-rds-deployment/" class="md-nav__link">
         
   
   
@@ -737,17 +717,44 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../aws/lambda-function-week-eight.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lambda Function - Manage File Transfers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    Lambda Function
+    Lambda Function - Manage File Transfers
   
 
     
@@ -756,6 +763,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#refrences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Refrences:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -768,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/lambda-function-invoke-ssm-document-week-nine.md" class="md-nav__link">
+      <a href="../lambda-function-invoke-ssm-document.md" class="md-nav__link">
         
   
   
@@ -796,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/lambda-url-invoking/" class="md-nav__link">
+      <a href="../lambda-url-invoking/" class="md-nav__link">
         
   
   
@@ -824,7 +862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/backend-hcp-week-twentyfive.md" class="md-nav__link">
+      <a href="../aws-backend-hcp/" class="md-nav__link">
         
   
   
@@ -852,7 +890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws/aws-pipeline-deliver-DevSecOps.md" class="md-nav__link">
+      <a href="../devsecops-checkov/" class="md-nav__link">
         
   
   
@@ -860,34 +898,6 @@
     
   
     AWS Pipeline
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../aws/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
   
 
     
@@ -993,34 +1003,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../circleci/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../circleci/automate-tgw-deployment.md" class="md-nav__link">
         
   
@@ -1028,7 +1010,7 @@
   <span class="md-ellipsis">
     
   
-    Automate TGW Deployment
+    Automate TGW Deployment - NONE
   
 
     
@@ -1057,34 +1039,6 @@
     
   
     Highly available design deployment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../CircleCi/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
   
 
     
@@ -1190,34 +1144,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../aws-python-boto3/fetching-aws-resource-details/" class="md-nav__link">
         
   
@@ -1281,7 +1207,7 @@
   <span class="md-ellipsis">
     
   
-    AWS Python to Terraform
+    AWS Python to Terraform - NONE
   
 
     
@@ -1309,7 +1235,7 @@
   <span class="md-ellipsis">
     
   
-    AWS Python to Terraform - Public Docs
+    AWS Python to Terraform - Public Docs - NONE
   
 
     
@@ -1338,34 +1264,6 @@
     
   
     AWS Python Package PyPi
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../aws-python-boto3/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
   
 
     
@@ -1471,34 +1369,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gcp/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../gcp/cloud-run-deployment.md" class="md-nav__link">
         
   
@@ -1506,35 +1376,7 @@
   <span class="md-ellipsis">
     
   
-    GCP Cloud Run Deployment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../GCP/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
+    GCP Cloud Run Deployment - NONE
   
 
     
@@ -1640,34 +1482,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../azure/manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
         
   
@@ -1675,7 +1489,7 @@
   <span class="md-ellipsis">
     
   
-    Manage Azure basic network components
+    Manage Azure basic network components - NONE
   
 
     
@@ -1703,7 +1517,7 @@
   <span class="md-ellipsis">
     
   
-    Azure DevOps - Branch Policies & Security
+    Azure DevOps - Branch Policies & Security - NONE
   
 
     
@@ -1731,35 +1545,7 @@
   <span class="md-ellipsis">
     
   
-    Azure DevOps - Environment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../azure/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
+    Azure DevOps - Environment - NONE
   
 
     
@@ -1808,6 +1594,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#refrences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Refrences:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1826,17 +1631,49 @@
   
 
 
-<h1 id="aws-labs">AWS Labs</h1>
-<p>Content for AWS labs.</p>
+<h1 id="week_eight-lambda">#week_eight - Lambda</h1>
+<p><strong><em>Manage file Transfer between S3 Buckets using Lambda</em></strong>
+<br><br></p>
+<p>FrogTech company has the challenge of automating a manual process, They are using S3 as a public storage for external/internal parties
+authenticating using IAM credentials.</p>
+<p>There are two main S3 buckets 1. frogtech-us-external and 2. frogtech-us-internal, The Challenge lies in the manual actions that
+operators do daily in order to move files from one S3 to another.</p>
+<p>You’re requested to automate this process using Lambda function, utilizing the native SDK of AWS <em>(i.e. Python boto3 SDK,)</em> FrogTech
+engineers have no idea about lambda. Therefore you as an expert, should provide them with a document containing the <strong>basics</strong> of lambda,
+besides explaining:</p>
+<ol>
+<li>Function event.</li>
+<li>Function context.</li>
+<li>Function environment variables.</li>
+<li>layers.</li>
+<li>Differences between Synchronous and Asynchronous.</li>
+</ol>
+<p><br></p>
+<p>as well as provide a diagram explaining the entire process of the created resources; Use IaC Terraform to build all resources and consider
+the below requirements specifications.</p>
+<ol>
+<li>Resources must be created at the us-east-1 region.</li>
+<li>Resources must have tags as below:<ul>
+<li>Key: “Environment”, Value: “terraformChamps”</li>
+<li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;</li>
+</ul>
+</li>
+<li>Preferd to use variables.
+<br>
+<br></li>
+</ol>
+<h3 id="refrences"><strong>Refrences:</strong></h3>
+<ol>
+<li><a href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html">What is AWS Lambda? - AWS Lambda</a></li>
+<li><a href="https://mohamed-eleraky.hashnode.dev/aws-lambda-s3-trigger-terraform-project-10#heading-the-architecture-design-diagram">[AWS] Lambda - S3 Trigger + Terraform Project 10</a></li>
+<li><a href="https://mohamed-eleraky.hashnode.dev/aws-lambda-concepts-essentials#heading-synchronous-invocation">[AWS] Lambda Concepts Essentials</a></li>
+</ol>
 
 
 
 
 
 
-
-  
-  
 
 
 

@@ -10,10 +10,10 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/aws/lab-name/">
+        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/aws/devsecops-checkov/">
       
       
-        <link rel="prev" href="../lambda-url-invoking/">
+        <link rel="prev" href="../aws-backend-hcp/">
       
       
         <link rel="next" href="../../CircleCi/">
@@ -23,11 +23,11 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Lab Name - DevOps-Kitchen-Workshops</title>
+        <title>AWS Pipeline - DevOps-Kitchen-Workshops</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#aws-labs" class="md-skip">
+        <a href="#deliver-devsecops" class="md-skip">
           Skip to content
         </a>
       
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Lab Name
+              AWS Pipeline
             
           </span>
         </div>
@@ -440,35 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../warm-up.md" class="md-nav__link">
+      <a href="../warm-up/" class="md-nav__link">
         
   
   
@@ -496,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../disable-acl.md" class="md-nav__link">
+      <a href="../s3-bucket-disable-acl/" class="md-nav__link">
         
   
   
@@ -664,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../single-rds-deployment.md" class="md-nav__link">
+      <a href="../single-rds-deployment/" class="md-nav__link">
         
   
   
@@ -692,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../multi-az-rds-deployment.md" class="md-nav__link">
+      <a href="../multi-az-rds-deployment/" class="md-nav__link">
         
   
   
@@ -720,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../advanced-multi-az-rds-deployment.md" class="md-nav__link">
+      <a href="../advanced-multi-az-rds-deployment/" class="md-nav__link">
         
   
   
@@ -748,14 +720,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../lambda-function-week-eight.md" class="md-nav__link">
+      <a href="../lambda/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Lambda Function
+    Lambda Function - Manage File Transfers
   
 
     
@@ -776,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lambda-function-invoke-ssm-document-week-nine.md" class="md-nav__link">
+      <a href="../lambda-function-invoke-ssm-document.md" class="md-nav__link">
         
   
   
@@ -832,7 +804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../backend-hcp-week-twentyfive.md" class="md-nav__link">
+      <a href="../aws-backend-hcp/" class="md-nav__link">
         
   
   
@@ -840,34 +812,6 @@
     
   
     Backend - HCP
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../aws-pipeline-deliver-DevSecOps.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Pipeline
   
 
     
@@ -897,6 +841,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Pipeline
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -904,7 +866,7 @@
   <span class="md-ellipsis">
     
   
-    Lab Name
+    AWS Pipeline
   
 
     
@@ -913,6 +875,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#week_twentysix-terraform-code-scanning-with-checkov" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        #week_twentysix - Terraform code scanning with checkov
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="#week_twentysix - Terraform code scanning with checkov">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1011,34 +1020,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../circleci/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../circleci/automate-tgw-deployment.md" class="md-nav__link">
         
   
@@ -1046,7 +1027,7 @@
   <span class="md-ellipsis">
     
   
-    Automate TGW Deployment
+    Automate TGW Deployment - NONE
   
 
     
@@ -1075,34 +1056,6 @@
     
   
     Highly available design deployment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../CircleCi/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
   
 
     
@@ -1208,34 +1161,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../aws-python-boto3/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../aws-python-boto3/fetching-aws-resource-details/" class="md-nav__link">
         
   
@@ -1299,7 +1224,7 @@
   <span class="md-ellipsis">
     
   
-    AWS Python to Terraform
+    AWS Python to Terraform - NONE
   
 
     
@@ -1327,7 +1252,7 @@
   <span class="md-ellipsis">
     
   
-    AWS Python to Terraform - Public Docs
+    AWS Python to Terraform - Public Docs - NONE
   
 
     
@@ -1356,34 +1281,6 @@
     
   
     AWS Python Package PyPi
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../aws-python-boto3/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
   
 
     
@@ -1489,34 +1386,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gcp/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../gcp/cloud-run-deployment.md" class="md-nav__link">
         
   
@@ -1524,35 +1393,7 @@
   <span class="md-ellipsis">
     
   
-    GCP Cloud Run Deployment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../GCP/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
+    GCP Cloud Run Deployment - NONE
   
 
     
@@ -1658,34 +1499,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../azure/getting-started.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Getting Started
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../azure/manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
         
   
@@ -1693,7 +1506,7 @@
   <span class="md-ellipsis">
     
   
-    Manage Azure basic network components
+    Manage Azure basic network components - NONE
   
 
     
@@ -1721,7 +1534,7 @@
   <span class="md-ellipsis">
     
   
-    Azure DevOps - Branch Policies & Security
+    Azure DevOps - Branch Policies & Security - NONE
   
 
     
@@ -1749,35 +1562,7 @@
   <span class="md-ellipsis">
     
   
-    Azure DevOps - Environment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../azure/lab-name/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Lab Name
+    Azure DevOps - Environment - NONE
   
 
     
@@ -1826,6 +1611,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#week_twentysix-terraform-code-scanning-with-checkov" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        #week_twentysix - Terraform code scanning with checkov
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="#week_twentysix - Terraform code scanning with checkov">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1844,17 +1665,68 @@
   
 
 
-<h1 id="aws-labs">AWS Labs</h1>
-<p>Content for AWS labs.</p>
+<h1 id="deliver-devsecops">Deliver DevSecOps</h1>
+<h2 id="week_twentysix-terraform-code-scanning-with-checkov"><em>#week_twentysix - Terraform code scanning with checkov</em></h2>
+<p><br></p>
+<p><strong><em>duration: 2 weeks</em></strong>
+<br><br></p>
+<p>ForgTech company wanna test your ability to Deliver HCL code scanning using Checkov, This will help you to build a good reputation.</p>
+<p>The FrogTech Security team requests you implement a scanning stage of the company main AWS Pipeline, with the criteria below:</p>
+<ol>
+<li>The scan should match intended changes ( <em>i.e. do not scan</em> .tf <em>files instead scan the plan result)</em></li>
+<li>The scan step action should run in parallel with the plan step.</li>
+<li>The Checkov scan should run on JSON plan output, providing a human-readable format.</li>
+<li>The Checkov scan should run before the manual approval stage.</li>
+</ol>
+<p>As well as Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you in getting back
+and refreshing your knowledge later.</em>
+<br><br></p>
+<p>By following The ForgTech deployment policy, you should deliver this deployment in an automated pipeline using AWS Pipeline and follow
+the DevOps Team pipeline structure standards as The Pipeline stages should be as follows:</p>
+<ol>
+<li>Preparation stage: This includes the installation and preparation steps <em>(i.e. install AWS CLI, Terraform, Python, Checkov, and Terraform</em>
+    <em>Initialization)</em></li>
+<li>Plan Stage: This includes the terraform validation and plan commands; The plan must done by using the output file <em>(i.e. tfplan file)</em></li>
+<li>Scan step action: This includes the Checkov scan, and should be run on the plan result, as well as in parallel with Plan stage.</li>
+<li>Manual approval: Pause the pipeline until Reviewed &amp; Approved by the checker engineer.</li>
+<li>Terraform apply: This includes Starting provision resources.
+<br><br></li>
+</ol>
+<p>Consider the below requirements specifications.</p>
+<ol>
+<li>Resources must be created at the us-east-1 region.</li>
+<li>Store state file backend into HCP | S3.</li>
+<li>Resources must have common tags combination as below:</li>
+<li>Common tags:<ul>
+<li>Key: “Environment”, Value: “terraformChamps”</li>
+<li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;
+<br><br></li>
+</ul>
+</li>
+</ol>
+<p><strong>Bonus</strong></p>
+<ol>
+<li>Build an Architecture diagram of the Pipeline stages.</li>
+<li>Append an extra step command of the Plan stage reviewing specific parts of attributes using jq command.</li>
+<li>Crafting multiple HCP workspaces.
+<br></li>
+</ol>
+<p><br></p>
+<h3 id="references"><strong>References:</strong></h3>
+<ul>
+<li><a href="https://eraki.hashnode.dev/aws-codepipeline-automate-iac-provisioning">AWS CodePipeline Automate IaC provisioning</a></li>
+<li><a href="https://eraki.hashnode.dev/aws-codepipeline-deliver-devsecops#heading-update-buildspecyml">AWS CodePipeline - Deliver DevSecOps</a></li>
+<li><a href="https://www.checkov.io/1.Welcome/What%20is%20Checkov.html#supported-iac-types">What is checkov</a></li>
+<li><a href="https://www.checkov.io/3.Custom%20Policies/Custom%20Policies%20Overview.html">Custom policy overview</a></li>
+<li><a href="https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html">Terraform plan scanning</a></li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml">eraki code sample</a></li>
+</ul>
 
 
 
 
 
 
-
-  
-  
 
 
 

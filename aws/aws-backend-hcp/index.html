@@ -10,31 +10,31 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/CircleCi/">
+        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/aws/aws-backend-hcp/">
       
       
-        <link rel="prev" href="../aws/devsecops-checkov/">
+        <link rel="prev" href="../lambda-url-invoking/">
       
       
-        <link rel="next" href="../aws-python-boto3/">
+        <link rel="next" href="../devsecops-checkov/">
       
       
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Overview - DevOps-Kitchen-Workshops</title>
+        <title>Backend - HCP - DevOps-Kitchen-Workshops</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,11 +53,11 @@
       
     
     
-      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#circleci-overview" class="md-skip">
+        <a href="#manage-aws-deployment-over-hcp" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="DevOps-Kitchen-Workshops" class="md-header__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
+    <a href="../.." title="DevOps-Kitchen-Workshops" class="md-header__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Backend - HCP
             
           </span>
         </div>
@@ -250,7 +250,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="DevOps-Kitchen-Workshops" class="md-nav__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
+    <a href="../.." title="DevOps-Kitchen-Workshops" class="md-nav__button md-logo" aria-label="DevOps-Kitchen-Workshops" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -280,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -358,6 +358,8 @@
                 
   
   
+    
+  
   
   
     
@@ -367,11 +369,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -392,7 +394,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -410,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -438,7 +440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/warm-up/" class="md-nav__link">
+      <a href="../warm-up/" class="md-nav__link">
         
   
   
@@ -466,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/s3-bucket-disable-acl/" class="md-nav__link">
+      <a href="../s3-bucket-disable-acl/" class="md-nav__link">
         
   
   
@@ -494,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/s3-bucket-lifecycle/" class="md-nav__link">
+      <a href="../s3-bucket-lifecycle/" class="md-nav__link">
         
   
   
@@ -522,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/s3-bucket-conditional-access-policy/" class="md-nav__link">
+      <a href="../s3-bucket-conditional-access-policy/" class="md-nav__link">
         
   
   
@@ -550,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/s3-bucket-object-encryption/" class="md-nav__link">
+      <a href="../s3-bucket-object-encryption/" class="md-nav__link">
         
   
   
@@ -578,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/s3-bucket-access-policy-cli-comm/" class="md-nav__link">
+      <a href="../s3-bucket-access-policy-cli-comm/" class="md-nav__link">
         
   
   
@@ -606,7 +608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/s3-bucket-vpc-endpoint/" class="md-nav__link">
+      <a href="../s3-bucket-vpc-endpoint/" class="md-nav__link">
         
   
   
@@ -634,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/single-rds-deployment/" class="md-nav__link">
+      <a href="../single-rds-deployment/" class="md-nav__link">
         
   
   
@@ -662,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/multi-az-rds-deployment/" class="md-nav__link">
+      <a href="../multi-az-rds-deployment/" class="md-nav__link">
         
   
   
@@ -690,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/advanced-multi-az-rds-deployment/" class="md-nav__link">
+      <a href="../advanced-multi-az-rds-deployment/" class="md-nav__link">
         
   
   
@@ -718,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/lambda/" class="md-nav__link">
+      <a href="../lambda/" class="md-nav__link">
         
   
   
@@ -746,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/lambda-function-invoke-ssm-document.md" class="md-nav__link">
+      <a href="../lambda-function-invoke-ssm-document.md" class="md-nav__link">
         
   
   
@@ -774,7 +776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/lambda-url-invoking/" class="md-nav__link">
+      <a href="../lambda-url-invoking/" class="md-nav__link">
         
   
   
@@ -799,10 +801,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../aws/aws-backend-hcp/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backend - HCP
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -818,6 +847,54 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#week_twentyfive-hashicorp-vcs-driven-run-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        #week_twentyfive - Hashicorp VCS-driven run workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="#week_twentyfive - Hashicorp VCS-driven run workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -830,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/devsecops-checkov/" class="md-nav__link">
+      <a href="../devsecops-checkov/" class="md-nav__link">
         
   
   
@@ -863,8 +940,6 @@
                 
   
   
-    
-  
   
   
     
@@ -874,11 +949,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -899,7 +974,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -914,37 +989,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Overview
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../CircleCi/" class="md-nav__link">
         
   
   
@@ -960,37 +1008,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What’s inside
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1003,7 +1020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../circleci/automate-tgw-deployment.md" class="md-nav__link">
+      <a href="../../circleci/automate-tgw-deployment.md" class="md-nav__link">
         
   
   
@@ -1031,7 +1048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../circleci/highly-available-design-deployment.md" class="md-nav__link">
+      <a href="../../circleci/highly-available-design-deployment.md" class="md-nav__link">
         
   
   
@@ -1116,7 +1133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws-python-boto3/" class="md-nav__link">
+      <a href="../../aws-python-boto3/" class="md-nav__link">
         
   
   
@@ -1144,7 +1161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws-python-boto3/fetching-aws-resource-details/" class="md-nav__link">
+      <a href="../../aws-python-boto3/fetching-aws-resource-details/" class="md-nav__link">
         
   
   
@@ -1172,7 +1189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws-python-boto3/s3-calls/" class="md-nav__link">
+      <a href="../../aws-python-boto3/s3-calls/" class="md-nav__link">
         
   
   
@@ -1200,7 +1217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../week-ninteen.md" class="md-nav__link">
+      <a href="../../week-ninteen.md" class="md-nav__link">
         
   
   
@@ -1228,7 +1245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws-python-boto3/python-to-terraform/" class="md-nav__link">
+      <a href="../../aws-python-boto3/python-to-terraform/" class="md-nav__link">
         
   
   
@@ -1256,7 +1273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws-python-boto3/AWS-Python-Package-PyPi/" class="md-nav__link">
+      <a href="../../aws-python-boto3/AWS-Python-Package-PyPi/" class="md-nav__link">
         
   
   
@@ -1341,7 +1358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../GCP/" class="md-nav__link">
+      <a href="../../GCP/" class="md-nav__link">
         
   
   
@@ -1369,7 +1386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gcp/cloud-run-deployment.md" class="md-nav__link">
+      <a href="../../gcp/cloud-run-deployment.md" class="md-nav__link">
         
   
   
@@ -1454,7 +1471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../azure/" class="md-nav__link">
+      <a href="../../azure/" class="md-nav__link">
         
   
   
@@ -1482,7 +1499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../azure/manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
+      <a href="../../azure/manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
         
   
   
@@ -1510,7 +1527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../azure/azure-devops-branch-policies-security.md" class="md-nav__link">
+      <a href="../../azure/azure-devops-branch-policies-security.md" class="md-nav__link">
         
   
   
@@ -1538,7 +1555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../azure/azure-devops-environment.md" class="md-nav__link">
+      <a href="../../azure/azure-devops-environment.md" class="md-nav__link">
         
   
   
@@ -1601,13 +1618,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-inside" class="md-nav__link">
+  <a href="#week_twentyfive-hashicorp-vcs-driven-run-workflow" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What’s inside
+        #week_twentyfive - Hashicorp VCS-driven run workflow
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="#week_twentyfive - Hashicorp VCS-driven run workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1631,14 +1665,31 @@
   
 
 
-<h1 id="circleci-overview">CircleCI Overview</h1>
-<p>Welcome to the CircleCI section of DevOps Kitchen Workshop.</p>
-<p>This section contains continuous integration and deployment examples built with CircleCI.</p>
-<h2 id="whats-inside">What’s inside</h2>
+<h1 id="manage-aws-deployment-over-hcp">Manage AWS Deployment over HCP</h1>
+<h2 id="week_twentyfive-hashicorp-vcs-driven-run-workflow"><em>#week_twentyfive - Hashicorp VCS-driven run workflow</em></h2>
+<p><br></p>
+<p><strong><em>duration: 1 week</em></strong>
+<br><br></p>
+<p>ForgTech company wanna test your ability to deliver their requirements into their HCP project.
+This will help you build a good reputation. The purpose of this task is to protect and manage
+their IaC deployment statefile for AWS Resources over Hashicorp Cloud Platform “HCP” across
+environments (e.g. dev and pre-prod) by separating the deployment and applying approvals.</p>
+<p>The FrogTech Tech Lead Team requests to protect the Terraform Deployment with the following
+requirements:</p>
+<ol>
+<li>Host Terraform statefile into their project while considering segregation of environments (e.g.
+Dev, Pre-Prod) over workspaces.</li>
+<li>Consider AWS Credentials as sensitive variables and global across workspaces.</li>
+<li>Consider auto-trigger deployment for the main GitHub branch by using the VCS-Driven run
+workflow.</li>
+<li>Consider setting the required variables over HCP workspace variables.
+<br></li>
+</ol>
+<p><br></p>
+<h3 id="references"><strong>References:</strong></h3>
 <ul>
-<li>Highly available design deployment</li>
+<li><a href="https://eraki.hashnode.dev/terraform-hcp-practical-guide">Terraform HCP Practical Guide</a></li>
 </ul>
-<p>More CircleCI guides will be added as the workshop grows.</p>
 
 
 
@@ -1727,10 +1778,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.sidebar", "navigation.collapse", "navigation.autoCollapsed", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "header.autohide", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.sidebar", "navigation.collapse", "navigation.autoCollapsed", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "header.autohide", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
