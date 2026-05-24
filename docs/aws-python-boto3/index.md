@@ -6,7 +6,7 @@ This section contains examples and automation guides using AWS SDK for Python.
 
 ## What’s inside
 
-- AWS Boto3 S3 calls
-- Fetching AWS resource details
-- Python to Terraform integration
-- AWS Python package examples
+- S3 calls with Boto3
+- Fetching AWS resource details with Boto3
+- Python to Terraform integration examples
+- AWS Python package (PyPI) examples

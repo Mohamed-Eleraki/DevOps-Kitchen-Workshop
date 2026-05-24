@@ -100,13 +100,11 @@ nav:
 
       - AWS Python Boto3:
           - Overview: aws-python-boto3/index.md
-          - Getting Started: aws-python-boto3/getting-started.md
           - Fetching AWS Resources: aws-python-boto3/fetching-aws-resource-details.md
           - AWS Boto3 S3 Calls: aws-python-boto3/s3-calls.md
-          - AWS Python to Terraform: week-ninteen.md
-          - AWS Python to Terraform - Public Docs: aws-python-boto3/python-to-terraform.md
+          - AWS Python to Terraform - NONE: week-ninteen.md
+          - AWS Python to Terraform - Public Docs - NONE: aws-python-boto3/python-to-terraform.md
           - AWS Python Package PyPi: aws-python-boto3/AWS-Python-Package-PyPi.md
-          - Lab Name: aws-python-boto3/lab-name.md
 
       - GCP:
           - Overview: GCP/index.md
