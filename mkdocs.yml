@@ -95,7 +95,7 @@ nav:
 
       - CircleCI:
           - Overview: CircleCi/index.md
-          - Automate TGW Deployment - NONE: CircleCi/automate-tgw-deployment.md
+          - Automate TGW Deployment: CircleCi/automate-transit-gateway-deployment.md
           - Highly available design deployment: CircleCi/highly-available-design-deployment.md
 
       - AWS Python Boto3:
@@ -113,6 +113,6 @@ nav:
 
       - Azure:
           - Overview: azure/index.md
-          - Manage Azure basic network components - NONE: azure/manage-azure-basic-network-components-week-twentysix.md
+          - Manage Azure basic network components: azure/az-basic-networking.md
           - Azure DevOps - Branch Policies & Security: azure/az-devops-branch-policy-security.md
           - Azure DevOps - Environment: azure/az-devops-environment.md
