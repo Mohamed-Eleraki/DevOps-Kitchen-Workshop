@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/azure/az-basic-networking/">
+        <link rel="canonical" href="https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/GCP/master-container-deployment/">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Manage Azure basic Network components - DevOps-Kitchen-Workshops</title>
+        <title>GCP CloudRun - Master Container deployment - DevOps-Kitchen-Workshops</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#manage-azure-basic-network-components" class="md-skip">
+        <a href="#gcp-cloudrun-master-container-deployment" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Manage Azure basic Network components
+              GCP CloudRun - Master Container deployment
             
           </span>
         </div>
@@ -1247,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../GCP/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1360,7 +1360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../azure/" class="md-nav__link">
         
   
   
@@ -1388,7 +1388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
+      <a href="../../azure/manage-azure-basic-network-components-week-twentysix.md" class="md-nav__link">
         
   
   
@@ -1416,7 +1416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../az-devops-branch-policy-security/" class="md-nav__link">
+      <a href="../../azure/az-devops-branch-policy-security/" class="md-nav__link">
         
   
   
@@ -1444,7 +1444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../az-devops-environment/" class="md-nav__link">
+      <a href="../../azure/az-devops-environment/" class="md-nav__link">
         
   
   
@@ -1507,18 +1507,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#week_twentysix-azure-networking-over-terraform-github-action" class="md-nav__link">
+  <a href="#week_twentytwo-gcp-cloudrun" class="md-nav__link">
     <span class="md-ellipsis">
       
-        #week_twentysix - Azure Networking over Terraform &amp; GitHub Action
+        week_twentytwo - GCP CloudRun
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="#week_twentysix - Azure Networking over Terraform &amp; GitHub Action">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1526,11 +1525,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1554,35 +1548,32 @@
   
 
 
-<h1 id="manage-azure-basic-network-components">Manage Azure basic Network components</h1>
-<h2 id="week_twentysix-azure-networking-over-terraform-github-action"><em>#week_twentysix - Azure Networking over Terraform &amp; GitHub Action</em></h2>
+<h1 id="gcp-cloudrun-master-container-deployment">GCP CloudRun - Master Container deployment</h1>
+<h3 id="week_twentytwo-gcp-cloudrun"><em>week_twentytwo - GCP CloudRun</em></h3>
+<p><em><strong>duration: 1 week</strong></em></p>
 <p><br></p>
-<p><em><strong>duration: 1 week</strong></em>
-<br><br></p>
-<p>ForgTech company wanna test your ability to deliver their requirements into their azure
-subscription.
-This will help you build a good reputation. The purpose of this task is to protect and manage
-their network traffic to/from Vnets, by securing azure webapp traffic to accessed only internaly,
-the diagram below clear the network flow:</p>
-<p><img alt="Diagram" src="../image.png" />
-<br><br></p>
-<p>The FrogTech Tech Lead Team requests to protect the azure network resource with the
-following requirements:</p>
-<ol>
-<li>Deploy and build all components presented in the diagram.</li>
-<li>The webapp set as private, not publicly accessable.</li>
-<li>the webapp attached NSG accept traffic from its private endpoint for port 80.</li>
-<li>Both private DNS map Private endpoint IP.</li>
-<li>The Spoke Vnet subnet set as private.</li>
-<li>Create a VM into a public subnet.</li>
-<li>The attached NSG to subnet/vm accept 22 port from your device IP only.</li>
-<li>setup Vnet peering between both Vnets.
-<br></li>
-</ol>
+<p>ForgTech company wanna test your ability to deliver their requirements utilizing Google
+CloudRun over Google CLI.
+This will help you build a good reputation. The purpose of this task is to build and deploy a
+general Nginx container. Then apply some advanced configurations like Blue-Green deployment
+-e.g. deploy multiple revisions and split traffic, ensure new version stabilityThe FrogTech Cloud Team requests that building a Docker image, then deploy it utilizing Google
+registry and CloudRun while using gcloud CLI; The exact implementation is as follows:
+1. Build an Nginx Docker image and pass a custom <code>index.html</code> file.
+2. Push Docker Image to Google registry over gcloud CLI.
+3. Deploy The Image to CloudRun over gcloud CLI, then test accessibility.
+4. After Testing, adjust the index.html file and push a new version of the Docker image to the
+registry.
+5. Deploy a new revision of the same deployment, then test accessibility.
+6. Split traffic between two revisions as follows, and ensure the traffic splitting by accessing
+multiple times:
+a. Old revision: 70%
+b. New revision: 30%
+7. Set the traffic to 100% of the new revisions.
+8. Submit scaling for 3 containers.</p>
 <p><br></p>
-<h3 id="references"><strong>References:</strong></h3>
+<h2 id="references">References:</h2>
 <ul>
-<li>https://github.com/Mohamed-Eleraki/terraform/tree/main/Azure/06-Azure-networking</li>
+<li><a href="https://eraki.hashnode.dev/gcp-cloud-run-in-practice#heading-overview">GCP Cloud Run In Practice</a></li>
 </ul>
 
 
