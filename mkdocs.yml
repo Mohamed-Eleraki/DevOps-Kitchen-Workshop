@@ -107,7 +107,9 @@ nav:
 
       - GCP:
           - Overview: GCP/index.md
-          - GCP Cloud Run Deployment - NONE: gcp/cloud-run-deployment.md
+          - GCP Cloud Run Deployment: gcp/master-container-deployment.md
+
+
 
       - Azure:
           - Overview: azure/index.md
