@@ -13,13 +13,13 @@ So, Are you ready to embrace a new journey that will elevate your skills? Let's 
 **Watch this short introduction before getting started:**
 
 <video controls width="100%">
-  <source src="video/DevOps-Kitchen-Workshop.mp4" type="video/mp4">
+  <source src="../video/DevOps-Kitchen-Workshop.mp4" type="video/mp4">
 </video>
 
-This video explains:
-- What the community is about.
-- How workshops work.
-- How to submit your work.
+This video explains: <br>
+- What the community is about. <br>
+- How workshops work. <br>
+- How to submit your work. <br>
 - How to communicate with the community.
 
 ---
