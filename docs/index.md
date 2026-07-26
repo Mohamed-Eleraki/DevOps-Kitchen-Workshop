@@ -11,7 +11,10 @@ So, Are you ready to embrace a new journey that will elevate your skills? Let's 
 
 
 **Watch this short introduction before getting started:**
-- [DevOps Kitchen Workshop Overview](video/DevOps-Kitchen-Workshop.mp4)
+
+<video controls width="100%">
+  <source src="video/DevOps-Kitchen-Workshop.mp4" type="video/mp4">
+</video>
 
 This video explains:
 - What the community is about.
