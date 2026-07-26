@@ -9,6 +9,18 @@ The community is open-source which means any one have the ability to append work
 ## Welcome to the DevOps Kitchen!
 So, Are you ready to embrace a new journey that will elevate your skills? Let's dive right in!
 
+
+**Watch this short introduction before getting started:**
+- [DevOps Kitchen Workshop Overview](video/DevOps-Kitchen-Workshop.mp4)
+
+This video explains:
+- What the community is about.
+- How workshops work.
+- How to submit your work.
+- How to communicate with the community.
+
+---
+
 To get started, Follow-up the steps below:
 
 - Study the [terraform basics ](https://onedrive.live.com/?id=7AE6F56050D1BAC3!s8b1186d69f674164b9c7b72f4922580e&resid=7AE6F56050D1BAC3!s8b1186d69f674164b9c7b72f4922580e&cid=7ae6f56050d1bac3&ithint=folder&redeem=aHR0cHM6Ly8xZHJ2Lm1zL2YvYy83QUU2RjU2MDUwRDFCQUMzL0V0YUdFWXRubjJSQnVjZTNMMGtpV0E0QjFmdVVLcDlZRXcyd1JhYWtKQmk4SGc&migratedtospo=true) *_(i.e. till video number 11)_*
