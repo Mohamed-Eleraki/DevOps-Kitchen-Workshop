@@ -12,9 +12,7 @@ So, Are you ready to embrace a new journey that will elevate your skills? Let's 
 
 **Watch this short introduction before getting started:**
 
-<video controls width="100%">
-  <source src="../video/DevOps-Kitchen-Workshop.mp4" type="video/mp4">
-</video>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZzAEY5NLXqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video explains: <br>
 - What the community is about. <br>
