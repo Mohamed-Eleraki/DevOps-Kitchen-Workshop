@@ -15,7 +15,7 @@ ensuring that you can destroy the S3 _(i.e., using the terraform destroy command
 <br>
 <br>
 
-Use IaC Terraform to build all resources and consider the below requirements specifications.
+Use IaC Terraform to build all resources and consider the requirements specifications below.
 
 1. Resources must be created in the us-east-1 region.
 2. Resources must have tags as below:
