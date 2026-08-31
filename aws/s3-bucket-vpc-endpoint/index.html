@@ -1629,25 +1629,25 @@
 <h2 id="week_four-accessing-s3-via-vpc-endpoint"><em>#week_four - Accessing S3 via VPC Endpoint</em></h2>
 <p><br></p>
 <p><strong><em>duration: 1 week</em></strong><br><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
+<p>ForgTech company wanna test your ability to type down a clean code by deploying the structure of resources. This will help you to build a
 good reputation.</p>
-<p>The FrogTech Developer team intends to use object storage as a centralized storage for storing data, these Data consist of web applications
-log files. The developers will push the log files automatically to The S3 from The Web application ec2 machine using VPC endpoint and IAM
+<p>The FrogTech Developer team intends to use object storage as a centralized storage for storing data. these data consist of web application
+log files. The developers will push the log files automatically to S3 from the web application ec2 machine using a VPC endpoint and IAM
 Role credentials.</p>
 <p>Therefore, You’re requested to provision an S3 object general purpose storage and a directory called “logs,“ ensuring the bucket owner
 owns all the objects, Block public access, enable versioning, disable object lock, as well as provision a gateway VPC endpoint for The S3,
 and provision an IAM Role, ec2 machine <em>“i.e. The web application server“</em> Holds created IAM Role consisting of S3 full access AWS
 managed policy.</p>
-<p>After provisioning the required Resources, Check the user accessibility utilizing AWS CLI <em>e.g. aws s3 command, and AWS CLI s3api
+<p>After provisioning the required Resources, check user accessibility utilizing AWS CLI <em>e.g, aws s3 command and AWS CLI s3api
 command.</em> </p>
 <p>The FrogTech security team has some concerns about this implementation as well, including enabling object encryption as “SSE-S3” and
 enabling the Bucket key.</p>
 <p><br></p>
 <p>Use IaC Terraform to build all resources and consider the below requirements specifications.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
-<li>Store state file backend into S3.</li>
-<li>Resources must have common tags combination as below:<ul>
+<li>Resources must be created in the us-east-1 region.</li>
+<li>Store the state file backend in S3.</li>
+<li>Resources must have a common tag combination as below:<ul>
 <li>Common tags:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
 <li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;</li>
@@ -1658,7 +1658,7 @@ enabling the Bucket key.</p>
 </ol>
 <p><strong>Bouns</strong>
 1. Build an Architecture diagram of the deployment resources.
-2. Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you to get back and refresh</em>
+2. Build a personal document consisting of what you learn with deep details and resources <em>i.e, this will assist you to get back and refresh</em>
     <em>your knowledge later</em></p>
 <p><br></p>
 <h2 id="references">References:</h2>
