@@ -4,7 +4,7 @@
 
 _**duration: 1 week**_
 
-<br>
+<br> 
 
 ForgTech company wanna test your ability to deliver their requirements into their Azure DevOps projects.
 This will help you build a good reputation. The purpose of this task is to protect their main branch from unattended changes, as well as
