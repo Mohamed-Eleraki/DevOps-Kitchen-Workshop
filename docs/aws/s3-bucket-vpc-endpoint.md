@@ -7,7 +7,7 @@
 ForgTech company wanna test your ability to type down a clean code by deploying the structure of resources. This will help you to build a
 good reputation.
 
-The FrogTech Developer team intends to use object storage as a centralized storage for storing data. these data consist of web application
+The FrogTech Developer team intends to use object storage as a centralized storage for storing data. These data consist of web application
 log files. The developers will push the log files automatically to S3 from the web application ec2 machine using a VPC endpoint and IAM
 Role credentials.
 
@@ -44,4 +44,4 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 
 - [EC2 instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html?icmpid=docs_ec2_console)
 - [VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/create-interface-endpoint.html)
-- [code sample 01](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/06-S3Bucket)
+- [code sample 01](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/06-S3Bucket)  ( Invalid Link )
