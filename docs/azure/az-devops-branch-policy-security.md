@@ -6,16 +6,16 @@ _**duration: 1 week**_
 
 <br> 
 
-ForgTech company wanna test your ability to deliver their requirements into their Azure DevOps projects.
+FrogTech company wanna test your ability to deliver their requirements into their Azure DevOps projects.
 This will help you build a good reputation. The purpose of this task is to protect their main branch from unattended changes, as well as
-configure branch users permissions
+configure branch users' permissions.
 The FrogTech Tech Lead Team requests to protect the main branch based on the following requirements:
 
 
 1. Protect merging on the Main branch, and only accept merges over pull requests.
-2. Deny pusher to approve his changes.
+2. Deny pushers from approving their own changes.
 3. Force tech lead to review for all changes.
-4. Protect merging on the main branch from non-standard branch names, the standard branch names should follow below name conventoin.
+4. Protect merging on the main branch from non-standard branch names, the standard branch names should follow the naming convention below.
 ```bash
 # -------------------------------------------------------
 # Allowed patterns:
@@ -28,7 +28,7 @@ The FrogTech Tech Lead Team requests to protect the main branch based on the fol
 # -------------------------------------------------------
 ```
 
-5. Assign the DevOps team sufficient access to clone, edit, and push with new branches that follow the standards naming convention
+5. Assign the DevOps team sufficient access to clone, edit, and push with new branches that follow the standard naming convention
 above
 
 ## References:
