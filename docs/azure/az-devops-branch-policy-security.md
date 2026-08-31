@@ -32,5 +32,5 @@ The FrogTech Tech Lead Team requests to protect the main branch based on the fol
 above
 
 ## References:
-- [Locking Down Your Code: A Guide to Azure DevOps Branch Policies & Security](https://eraki.hashnode.dev/locking-down-your-code-a-guide-to-azure-devops-branch-policies-and-security)
+- [Locking Down Your Code: A Guide to Azure DevOps Branch Policies & Security](https://eraki.hashnode.dev/locking-down-your-code-a-guide-to-azure-devops-branch-policies-and-security)    ( Invalid Link )
 
