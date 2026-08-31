@@ -6,10 +6,10 @@ _**duration: 1 week**_
 
 <br> 
 
-FrogTech company would like to test your ability to deliver their requirements in their Azure DevOps projects.
+ForgTech company would like to test your ability to deliver their requirements in their Azure DevOps projects.
 This will help you build a good reputation. The purpose of this task is to protect their main branch from unattended changes, as well as
 configure branch users' permissions.
-The FrogTech Tech Lead Team requests to protect the main branch based on the following requirements:
+The ForgTech Tech Lead Team requests to protect the main branch based on the following requirements:
 
 
 1. Protect merging on the Main branch, and only accept merges via pull requests.
