@@ -1629,11 +1629,11 @@
 <h2 id="week_two-understand-object-encryption"><em>#week_two - understand object encryption</em></h2>
 <p><br></p>
 <p><strong><em>duration: 1 week</em></strong><br><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
+<p>ForgTech company wanna test your ability to type clean code by deploying the structure of resources. This will help you to build a
 good reputation.</p>
-<p>FrogTech Developer team intends to use object storage to save temporary data for 7 days, these Data consist of git commit logs changes
-on their local repositories. The developers will push the log files automatically to The S3 from an EC2 machine via VPC endpoint.</p>
-<p>Therefore, You’re requested to provision an S3 object storage, with ensuring the bucket owner owns all the objects, Block public access,
+<p>FrogTech Developer team intends to use object storage to save temporary data for 7 days, these Data consist of git commit log changes
+on their local repositories. The developers will push the log files automatically to S3 from an EC2 machine via a VPC endpoint.</p>
+<p>Therefore, You’re requested to provision an S3 object storage, ensuring the bucket owner owns all the objects, block public access,
 enable versioning, disable object lock, and delete log files 7 consecutive days after upload time using S3 lifecycle.</p>
 <p>The FrogTech security team has some concerns about this implementation as well, including enabling object encryption as “SSE-S3” and
 enabling the Bucket key.</p>
@@ -1641,9 +1641,9 @@ enabling the Bucket key.</p>
 <br></p>
 <p>Use IaC Terraform to build all resources and consider the below requirements specifications.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
-<li>Store state file backend into S3.</li>
-<li>Resources must have common tags combination as below:</li>
+<li>Resources must be created in the us-east-1 region.</li>
+<li>Store the state file backend in S3.</li>
+<li>Resources must have a common tag combination as below:</li>
 <li>Common tags:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
 <li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;</li>
@@ -1653,7 +1653,7 @@ enabling the Bucket key.</p>
 <p><strong>Bouns</strong></p>
 <ol>
 <li>Build an Architecture diagram of the deployment resources.</li>
-<li>Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you to get back and refresh</em>
+<li>Build a personal document consisting of what you learn with deep details and resources <em>i.e., this will assist you to get back and refresh</em>
     <em>your knowledge later</em>
 <br></li>
 </ol>
