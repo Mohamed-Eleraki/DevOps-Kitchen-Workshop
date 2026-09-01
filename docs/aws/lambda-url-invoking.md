@@ -5,30 +5,30 @@
 
 **_duration: 1 week_**<br><br>
 
-ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
+ForgTech company wanna test your ability to type down a clean code by deploying the structure of resources. This will help you to build a
 good reputation.
 
 FrogTech intends to automate some processes and configurations on EFS mounted Disk By internal scripts created by Developers.
 
-You’re requested to use lambda function that mounts The EFS disk to submit and configure the passed parameters to the function event.
-The Developers will provide directory names as event values and your mission to create directories based on passed values.
+You’re requested to use a Lambda function that mounts the EFS disk to submit and configure the passed parameters to the function event.
+The Developers will provide directory names as event values, and your mission is to create directories based on the passed values.
 
-_Hence, the developers will pass values to the function event and the function will Create directories into the mounted EFS with the passed
+_Hence, the developers will pass values to the function event, and the function will create directories in the mounted EFS with the passed
 event values._
 
-Next, You should test and provide FrogTech developers with the function URL in order to include it into their scripts using the curl
-command, FrogTech Developers will be using curl command to trigger & pass values to the function.
+Next, you should test and provide FrogTech developers with the function URL in order to include it in their scripts using the curl
+command. FrogTech Developers will be using the curl command to trigger & pass values to the function.
 
-FrogTech is required to use high-level HCL language techniques, by Crafting a subnet resources module, Package your library
-dependencies as a ZIP file, and using it in the lambda layer instead.
+FrogTech is required to use high-level HCL language techniques by crafting a subnet resources module, packaging your library
+dependencies as a ZIP file, and use it in the Lambda layer instead.
 
 <br>
 <br>
 
 Use IaC Terraform to build all resources and consider the below requirements specifications.
 
-1. Resources must be created at the us-east-1 region.
-2. Resources must have common tags combination as below:
+1. Resources must be created in the us-east-1 region.
+2. Resources must have a common tag combination as below:
 3. Common tags:
     - Key: “Environment”, Value: “terraformChamps”
     - Key: “Owner”, Value: <“Your_first_name“>
@@ -36,12 +36,12 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 **Bouns**
 
 1. Build an Architecture diagram of the deployment resources.
-2. Build your own blog and create an article explaining lambda tricks, instead of using documents.
+2. Build your own blog and create an article explaining Lambda tricks, instead of using documents.
 <br>
 
 
 ## References:
 
 - [\[AWS\] Lambda - URL Invoking + Terraform Project 11](https://eraki.hashnode.dev/aws-lambda-url-invoking-terraform-project-11)
-- [Create your blog on hashnode](https://hashnode.com/)
+- [Create your blog on Hashnode](https://hashnode.com/)
 - [Create your blog on DEV](https://dev.to/)
