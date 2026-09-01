@@ -5,20 +5,20 @@
 
 **_duration: 1 week_**<br><br>
 
-ForgTech company wanna test your ability to deliver their requirements utilizing AWS Python SDK libraries, This will help you build
+ForgTech company wanna test your ability to deliver their requirements utilizing AWS Python SDK libraries. This will help you build
 a good reputation.
 
 The purpose of this task is to build a CLI tool using Python/Boto3 calls to create Terraform code for AWS
 resources.
 
-The FrogTech Cloud Team requests you to implement local Python scripts with AWS Boto3 SDK that meet the following
+The FrogTech Cloud Team requests that you implement local Python scripts with the AWS Boto3 SDK that meet the following
 requirements:
 
 1. Enable the user to specify the region.
-2. List the specified region resources (i.e. VPC, EC2, enough as a POC)
+2. List the specified region resources (i.e., VPC, EC2, enough as a POC)
 3. Create a Terraform file that contains the required details to create the fetchd VPCs.
-4. Consider docstrings and typehints.
-5. By using docstrings and typehints, create a public documentation that explains your tool by MkDocs.
+4. Consider docstrings and type hints.
+5. By using docstrings and type hints, create public documentation that explains your tool using MkDocs.
 6. Consider using function-based:
 
    a. List functions under the `utils` directory.
@@ -35,10 +35,10 @@ requirements:
    c. List related functions in the same file.
 
 8. Consider using the main file only to call all the functions and handle their dependencies.
-9. Consider the Python PEP8 code standardization (i.e. by installing vscode extensions like pylint, Black, or even ruff)
+9. Consider the Python PEP8 code standardization (i.e., by installing VS Code extensions like pylint, Black, or even ruff)
 10. Consider using assertions for debugging purposes only.
 
-As well as build a Readme file explaining what your tool is doing and how to use it.
+Also build a README file explaining what your tool is doing and how to use it.
 
 **Bouns**
 
