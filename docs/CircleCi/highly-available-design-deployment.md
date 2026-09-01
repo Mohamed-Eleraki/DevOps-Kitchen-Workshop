@@ -33,7 +33,7 @@ DevOps Team pipeline structure standards, as The Pipeline stages should be as fo
 <br><br>
 <br>
 
-Consider the below requirements specifications.
+Consider the following requirements specifications.
 
 1. Resources must be created in the us-east-1 region.
 2. Store the state file backend in HCP | S3.
