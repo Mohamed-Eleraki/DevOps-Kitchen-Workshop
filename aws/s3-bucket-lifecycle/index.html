@@ -1628,39 +1628,39 @@
 <h1 id="s3-bucket-lifecycle">S3 Bucket - Lifecycle</h1>
 <h2 id="day_three-file-transition-to-storage-classes"><em>#day_three - File transition to storage classes</em></h2>
 <p><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you
+<p>ForgTech company wanna test your ability to type down a clean code by deploying the structure of resources. This will help you
 to build a good reputation.</p>
-<p>ForgTech is required to build an S3 Bucket and configure file transition to multiple storage classes for archiving and low-cost purposes.</p>
-<p>The S3 requires to have directories as follows:</p>
+<p>ForgTech is required to build an S3 Bucket and configure file transitions to multiple storage classes for archiving and low-cost purposes.</p>
+<p>The S3 bucket is required to have directories as follows:</p>
 <ol>
 <li>/log</li>
 <li>/outgoing</li>
 <li>/incoming
 <br></li>
 </ol>
-<p>and file transition must match the following rules:</p>
+<p>and file transitions must match the following rules:</p>
 <ul>
-<li>Transition all files under /log to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.</li>
-<li>Transition all files under /log to Archive access (i.e. Glacier) 90 consecutive days after creation time.</li>
-<li>Transition all files under /log to Deep Archive access (i.e. Glacier Deep Archive) 180 consecutive days after creation time.</li>
+<li>Transition all files under /log to infrequent access (i.e., Standard-IA) 30 consecutive days after creation time.</li>
+<li>Transition all files under /log to Archive access (i.e., Glacier) 90 consecutive days after creation time.</li>
+<li>Transition all files under /log to Deep Archive access (i.e., Glacier Deep Archive) 180 consecutive days after creation time.</li>
 <li>Remove all files under /log 365 consecutive days after creation time.</li>
 <li>Transition all files under /outgoing with tag "notDeepArchive" to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.</li>
-<li>Transition all files under /outgoing to Archive access (i.e. Glacier) with the tag "notDeepArchive" 90 consecutive days after creation time.</li>
-<li>Transition all files under /incoming with size between 1MB to 1G to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.</li>
-<li>Transition all files under /incoming with size between 1MB to 1G to Archive access (i.e. Glacier) 90 consecutive days after creation time.</li>
+<li>Transition all files under /outgoing to Archive access (i.e., Glacier) with the tag "notDeepArchive" 90 consecutive days after creation time.</li>
+<li>Transition all files under /incoming with size between 1MB and 1G to infrequent access (i.e., Standard-IA) 30 consecutive days after creation time.</li>
+<li>Transition all files under /incoming with sizes between 1MB and 1 GB to Archive access (i.e., Glacier) 90 consecutive days after creation time.</li>
 </ul>
 <p><br>
 <br></p>
-<p>Use IaC Terraform to build all resources and consider the below requirements specifications. and ensuring that you can destroy the S3 <em>(i.e.
-using terraform destroy command)</em> even if the bucket is not empty.</p>
+<p>Use IaC Terraform to build all resources and consider the below requirements specifications. And ensure that you can destroy the S3 <em>(i.e.
+using the terraform destroy command)</em> even if the bucket is not empty.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
+<li>Resources must be created in the us-east-1 region.</li>
 <li>Resources must have tags as below:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
 <li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;</li>
 </ul>
 </li>
-<li>Preferd to use variables</li>
+<li>Prefer to use variables</li>
 </ol>
 <h2 id="code-sample">Code Sample:</h2>
 <ul>
