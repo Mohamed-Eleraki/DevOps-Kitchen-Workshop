@@ -1642,33 +1642,33 @@
 <p><br></p>
 <p><strong><em>duration: 2 weeks</em></strong>
 <br><br></p>
-<p>ForgTech company wanna test your ability to Deliver HCL code scanning using Checkov, This will help you to build a good reputation.</p>
-<p>The FrogTech Security team requests you implement a scanning stage of the company main AWS Pipeline, with the criteria below:</p>
+<p>ForgTech company wanna test your ability to deliver HCL code scanning using Checkov. This will help you to build a good reputation.</p>
+<p>The FrogTech Security team requests that you implement a scanning stage of the company's main AWS Pipeline, with the criteria below:</p>
 <ol>
 <li>The scan should match intended changes ( <em>i.e. do not scan</em> .tf <em>files instead scan the plan result)</em></li>
 <li>The scan step action should run in parallel with the plan step.</li>
 <li>The Checkov scan should run on JSON plan output, providing a human-readable format.</li>
 <li>The Checkov scan should run before the manual approval stage.</li>
 </ol>
-<p>As well as Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you in getting back
+<p>As well as build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you in getting back
 and refreshing your knowledge later.</em>
 <br><br></p>
-<p>By following The ForgTech deployment policy, you should deliver this deployment in an automated pipeline using AWS Pipeline and follow
-the DevOps Team pipeline structure standards as The Pipeline stages should be as follows:</p>
+<p>By following the ForgTech deployment policy, you should deliver this deployment in an automated pipeline using AWS Pipeline and follow
+the DevOps Team pipeline structure standards, as The Pipeline stages should be as follows:</p>
 <ol>
-<li>Preparation stage: This includes the installation and preparation steps <em>(i.e. install AWS CLI, Terraform, Python, Checkov, and Terraform</em>
-    <em>Initialization)</em></li>
-<li>Plan Stage: This includes the terraform validation and plan commands; The plan must done by using the output file <em>(i.e. tfplan file)</em></li>
-<li>Scan step action: This includes the Checkov scan, and should be run on the plan result, as well as in parallel with Plan stage.</li>
+<li>Preparation stage: This includes the installation and preparation steps <em>(i.e. install AWS CLI, Terraform, Python, Checkov, and Terraform
+    _Initialization)</em></li>
+<li>Plan Stage: This includes the Terraform validation and plan commands; The plan must be done using the output file <em>(i.e. tfplan file)</em></li>
+<li>Scan step action: This includes the Checkov scan and should be run on the plan result, as well as in parallel with the Plan stage.</li>
 <li>Manual approval: Pause the pipeline until Reviewed &amp; Approved by the checker engineer.</li>
-<li>Terraform apply: This includes Starting provision resources.
+<li>Terraform apply: This includes starting to provision resources.
 <br><br></li>
 </ol>
 <p>Consider the below requirements specifications.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
-<li>Store state file backend into HCP | S3.</li>
-<li>Resources must have common tags combination as below:</li>
+<li>Resources must be created in the us-east-1 region.</li>
+<li>Store the state file backend in HCP | S3.</li>
+<li>Resources must have a common tag combination as below:</li>
 <li>Common tags:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
 <li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;
@@ -1679,7 +1679,7 @@ the DevOps Team pipeline structure standards as The Pipeline stages should be as
 <p><strong>Bonus</strong></p>
 <ol>
 <li>Build an Architecture diagram of the Pipeline stages.</li>
-<li>Append an extra step command of the Plan stage reviewing specific parts of attributes using jq command.</li>
+<li>Append an extra step command to the Plan stage reviewing specific parts of attributes using the jq command.</li>
 <li>Crafting multiple HCP workspaces.
 <br></li>
 </ol>
@@ -1691,7 +1691,7 @@ the DevOps Team pipeline structure standards as The Pipeline stages should be as
 <li><a href="https://www.checkov.io/1.Welcome/What%20is%20Checkov.html#supported-iac-types">What is checkov</a></li>
 <li><a href="https://www.checkov.io/3.Custom%20Policies/Custom%20Policies%20Overview.html">Custom policy overview</a></li>
 <li><a href="https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html">Terraform plan scanning</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml">eraki code sample</a></li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml">eraki code sample</a>   ( Invalid Link )</li>
 </ul>
 
 
