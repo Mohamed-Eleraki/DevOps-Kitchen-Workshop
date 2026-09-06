@@ -22,7 +22,7 @@ Therefore, You’re requested to provision a PostgreSQL RDS version >=15.* with 
 5. Set skip_final_snapshot to true.
 6. Set multi_az to false.
 
-After provisioning the required Resources, check user accessibility utilizing the pgAdmin application or Psql client command line.
+After provisioning the required Resources, check user accessibility utilizing the pgAdmin application or the psql client command line.
 
 <br>
 Use IaC Terraform to build all resources and consider the below requirements specifications.
