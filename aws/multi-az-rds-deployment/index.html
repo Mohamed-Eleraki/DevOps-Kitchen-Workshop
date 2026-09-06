@@ -1637,34 +1637,34 @@
   
 
 
-<h1 id="multi-az-rds-deployment">Multi-az RDS Deployment</h1>
+<h1 id="multi-az-rds-deployment">Multi-AZ RDS Deployment</h1>
 <h2 id="week_six-multi-az-rds-deployment"><em>#week_six - multi-az RDS deployment</em></h2>
 <p><br></p>
 <p><strong><em>duration: 1 week</em></strong></p>
 <p><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
+<p>ForgTech company wanna test your ability to type clean code by deploying the structure of resources. This will help you to build a
 good reputation.</p>
-<p>The FrogTech Database team determined to migrate the local PostgreSQL Database to AWS RDS, They have tested/discovered the RDS
-functionality, Flaws, and parameter groups configuration.</p>
-<p>Therefore, You’re requested to provision a Highly available Multi-az instance PostgreSQL RDS version &gt;=15.*, The RDS Structure should
-be as primary and standby without read replica, besides creating a Jumper server “bastion host“ to allow the Database team to connect to
-The RDS. and consider the following requirement specifications:</p>
+<p>The FrogTech Database team has determined to migrate the local PostgreSQL Database to AWS RDS. They have tested/discovered the RDS
+functionality, Flaws, and parameter group configuration.</p>
+<p>Therefore, You’re requested to provision a highly available multi-AZ PostgreSQL RDS instance (version &gt;= 15).*, The RDS Structure should
+be primary and standby without a read replica, besides creating a Jumper server (bastion host) to allow the Database team to connect to
+The RDS and consider the following requirement specifications:</p>
 <ol>
-<li>allocate storage as 20 <em>i.e. avoiding high cost.</em></li>
+<li>Allocate storage as 20 <em>i.e., avoiding high cost.</em></li>
 <li>instance_calss as db.t3.micro <em>i.e. avoiding high cost.</em></li>
 <li>Deny public access.</li>
 <li>Both RDSs use the same Security group.</li>
-<li>Security Group allows inbound traffic for 5432 port from the bastion host only. and allows all outbound traffic.</li>
-<li>Set skip_final_snapshot as true.</li>
+<li>The security group allows inbound traffic for 5432 port from the bastion host only. And allows all outbound traffic.</li>
+<li>Set skip_final_snapshot to true.</li>
 </ol>
-<p>After provisioning the required Resources, Check the user accessibility utilizing the pgAdmin application or Psql client command line from
+<p>After provisioning the required Resources, check user accessibility utilizing the pgAdmin application or the psql client command line from
 the bastion host.
 <br><br></p>
 <p>Use IaC Terraform to build all resources and consider the below requirements specifications.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
-<li>Store state file backend into S3.</li>
-<li>Resources must have common tags combination as below:</li>
+<li>Resources must be created in the us-east-1 region.</li>
+<li>Store the state file backend in S3.</li>
+<li>Resources must have a common tag combination as below:</li>
 <li>Common tags:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
 <li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;
@@ -1678,11 +1678,11 @@ the bastion host.
 <p>Build an Architecture diagram of the deployment resources.</p>
 </li>
 <li>
-<p>Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you to get back and refresh</em>
+<p>Build a personal document consisting of what you learn with deep details and resources <em>i.e., this will assist you to get back and refresh</em>
     <em>your knowledge later</em></p>
 </li>
-<li>Store the backend into HCP instead.</li>
-<li>Apply &amp; destroy using planfile.
+<li>Store the backend in HCP instead.</li>
+<li>Apply &amp; destroy using the plan file.
 <br></li>
 </ol>
 <p><br></p>
@@ -1690,7 +1690,7 @@ the bastion host.
 <ul>
 <li><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">AWS RDS</a></li>
 <li><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html">Best practices for Amazon RDS</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/22-deployBasicRDS">Deploy basic RDS</a></li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/22-deployBasicRDS">Deploy basic RDS</a>   ( Invalid Link )</li>
 </ul>
 
 
