@@ -14,7 +14,7 @@ Container Registry and Cloud Run while using the gcloud CLI. The exact implement
 
 1. Build an Nginx Docker image and pass a custom `index.html` file.
 2. Push the Docker Image to Google Container Registry using the gcloud CLI.
-3. Deploy The Image to Cloud Run over the gcloud CLI, then test accessibility.
+3. Deploy The Image to Cloud Run using the gcloud CLI, then test accessibility.
 4. After Testing, adjust the index.html file and push a new version of the Docker image to the registry.
 5. Deploy a new revision of the same deployment, then test accessibility.
 6. Split traffic between two revisions as follows, and ensure the traffic splitting by accessing
