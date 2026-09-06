@@ -5,7 +5,7 @@
 
 **_duration: 1 week_**<br><br>
 
-ForgTech company wanna test your ability to deliver their requirements utilizing Python, This will help you build a good reputation.
+ForgTech company wanna test your ability to deliver their requirements utilizing Python. This will help you build a good reputation.
 
 The purpose of this task is to prove your capabilities using Boto3 calls, as well as prove that you have strong knowledge in this regard.
 
