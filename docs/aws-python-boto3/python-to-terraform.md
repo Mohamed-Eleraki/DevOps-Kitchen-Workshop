@@ -3,7 +3,7 @@
 ## _#week_twenty - Boto3 SDK_
 <br>
 
-**_duration: 1 week_**<br><br>
+**_duration: 1 week_**<br><br> 
 
 ForgTech company wanna test your ability to deliver their requirements utilizing AWS Python SDK libraries. This will help you build
 a good reputation.
