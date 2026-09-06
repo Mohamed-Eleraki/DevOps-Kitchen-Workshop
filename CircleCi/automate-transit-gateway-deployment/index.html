@@ -1008,12 +1008,12 @@
   <a href="#week_eleven-_-_-twelve-automate-transit-gateway-deployment-utilizing-circleci-cicd-terraform-iac" class="md-nav__link">
     <span class="md-ellipsis">
       
-        #week_eleven _ &amp; _ Twelve - Automate Transit gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC
+        #week_eleven _ &amp; _ Twelve - Automate Transit Gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="#week_eleven _ &amp; _ Twelve - Automate Transit gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC">
+    <nav class="md-nav" aria-label="#week_eleven _ &amp; _ Twelve - Automate Transit Gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1593,12 +1593,12 @@
   <a href="#week_eleven-_-_-twelve-automate-transit-gateway-deployment-utilizing-circleci-cicd-terraform-iac" class="md-nav__link">
     <span class="md-ellipsis">
       
-        #week_eleven _ &amp; _ Twelve - Automate Transit gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC
+        #week_eleven _ &amp; _ Twelve - Automate Transit Gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="#week_eleven _ &amp; _ Twelve - Automate Transit gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC">
+    <nav class="md-nav" aria-label="#week_eleven _ &amp; _ Twelve - Automate Transit Gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1637,29 +1637,29 @@
   
 
 
-<h1 id="automate-transit-gateway-deployment">Automate Transit gateway deployment</h1>
-<h2 id="week_eleven-_-_-twelve-automate-transit-gateway-deployment-utilizing-circleci-cicd-terraform-iac"><em>#week_eleven _ &amp; _ Twelve - Automate Transit gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC</em></h2>
+<h1 id="automate-transit-gateway-deployment">Automate Transit Gateway deployment</h1>
+<h2 id="week_eleven-_-_-twelve-automate-transit-gateway-deployment-utilizing-circleci-cicd-terraform-iac"><em>#week_eleven _ &amp; _ Twelve - Automate Transit Gateway deployment utilizing CircleCI CI/CD &amp; Terraform IaC</em></h2>
 <p><br></p>
 <p><strong><em>duration: 2 weeks</em></strong>
 <br><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
+<p>ForgTech company wanna test your ability to type down a clean code by deploying the structure of resources. This will help you to build a
 good reputation.</p>
-<p>The FrogTech Cloud Network team requested you to provision a transit gateway based on AWS Best Practice as follows:</p>
+<p>The FrogTech Cloud Network team requested that you provision a transit gateway based on AWS best practices as follows:</p>
 <ol>
 <li>Deploy VPC_1 and VPC_2 including Private subnets and ec2 machines for traffic testing.</li>
-<li>Deploy VPC_3 including public subnet.</li>
-<li>Deploy Transit gateway The manage the internet traffic flow-driven from/to The Private subnets to The Public subnet.
+<li>Deploy VPC_3 including a public subnet.</li>
+<li>Deploy a Transit gateway The manage the internet traffic flow from/to The Private subnets to The Public subnet.
 <br><br></li>
 </ol>
-<p>By following The ForgTech deployment policy, you should deliver this deployment in an automated pipeline using CircleCI and follow the
-DevOps Team pipeline structure standards as The Pipeline stages should be as follows:</p>
+<p>By following the ForgTech deployment policy, you should deliver this deployment in an automated pipeline using CircleCI and follow the
+DevOps Team pipeline structure standards, as The Pipeline stages should be as follows:</p>
 <ol>
-<li>Preparation stage: This includes the installation and preparation steps <em>(i.e. install AWS CLI, Terraform, and Terraform Initialization)</em> the
-    installation must be done by Commands map.</li>
-<li>Plan Stage: This includes the terraform validation and plan commands; The plan must done by using the output file <em>(i.e. tfplan_tgw file,)</em>
-    <em>and</em> Then Saving the output plan file using CircleCI workspace.</li>
-<li>Manual approval: Pause the pipeline until Reviewed &amp; Approved by the checker engineer.</li>
-<li>Terraform apply: This includes attaching the output plan saved file in the plan stage and then Starting provision resources.
+<li>Preparation stage: This includes the installation and preparation steps <em>(i.e. install AWS CLI, Terraform, and Terraform Initialization)</em>. The
+    installation must be done using the command map.</li>
+<li>Plan Stage: This includes the Terraform validation and plan commands; The plan must be done using the output file <em>(i.e. tfplan_tgw file)</em>
+    <em>and</em> Then Saving the output plan file using the CircleCI workspace.</li>
+<li>Manual approval: Pause the pipeline until Reviewed &amp; approved by the checker engineer.</li>
+<li>Terraform apply: This includes attaching the output plan saved file in the plan stage and then starting to provision resources.
     the</li>
 </ol>
 <p>After provisioning the required Resources, Check The deployed EC2 machines in the private subnet’s internet accessibility using the
@@ -1667,11 +1667,11 @@ package manager command:</p>
 <pre><code class="language-bash">dnf search httpd
 </code></pre>
 <p><br></p>
-<p>Consider the below requirements specifications.</p>
+<p>Consider the following requirements specifications.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
-<li>Store state file backend into HCP.</li>
-<li>Resources must have common tags combination as below:</li>
+<li>Resources must be created in the us-east-1 region.</li>
+<li>Store the state file backend in HCP.</li>
+<li>Resources must have a common tag combination as below:</li>
 <li>Common tags:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
 <li>Key: “Owner”, Value: &lt;“Your_first_name“&gt;
@@ -1682,9 +1682,9 @@ package manager command:</p>
 <p><strong>Bonus</strong></p>
 <ol>
 <li>Build an Architecture diagram of the deployment resources.</li>
-<li>Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you to get back and refresh</em>
+<li>Build a personal document consisting of what you learn with deep details and resources <em>i.e., this will assist you to get back and refresh</em>
     <em>your knowledge later</em></li>
-<li>Append an extra step command of the Plan stage reviewing specific parts of attributes using jq command.</li>
+<li>Append an extra step command in the Plan stage to review specific parts of attributes using the jq command.</li>
 <li>Crafting multiple HCP workspaces.
 <br></li>
 </ol>
@@ -1693,11 +1693,11 @@ package manager command:</p>
 <ul>
 <li><a href="https://docs.aws.amazon.com/vpc/latest/tgw/how-transit-gateways-work.html#transit-gateway-nat-igw-overview">Example: Centralized outbound routing to the internet</a></li>
 <li><a href="https://circleci.com/docs/reference/configuration-reference/#commands">CircleCI - Commands map</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml">jq code example</a></li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml">jq code example</a>   ( Invalid Link )</li>
 <li><a href="https://stackoverflow.com/questions/59079708/how-to-use-jq-to-extract-a-particular-field-from-a-terraform-state-file">jq command example</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/circleci-project-setup/.circleci/config.yml">CircleCI pipeline sample</a></li>
-<li><a href="https://mohamed-eleraky.hashnode.dev/aws-transitgateway-terrafrom-project-02">Transit gateway Article</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/05-Article2-TransitGateway">Transit gateway code sample</a></li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/blob/circleci-project-setup/.circleci/config.yml">CircleCI pipeline sample</a>   ( Invalid Link )</li>
+<li><a href="https://mohamed-eleraky.hashnode.dev/aws-transitgateway-terrafrom-project-02">Transit gateway Article</a>   ( Invalid Link )</li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/05-Article2-TransitGateway">Transit gateway code sample</a>   ( Invalid Link )</li>
 <li><a href="https://www.youtube.com/watch?v=x0pSa_M9WSM">Transit gateway online session</a></li>
 </ul>
 
