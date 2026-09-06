@@ -1637,45 +1637,45 @@
   
 
 
-<h1 id="advanced-multi-az-rds-deployment">Advanced Multi-az RDS Deployment</h1>
+<h1 id="advanced-multi-az-rds-deployment">Advanced Multi-AZ RDS Deployment</h1>
 <h2 id="week_seven-advanced-multi-az-rds-deployment"><em>#week_seven - Advanced multi-az RDS deployment</em></h2>
 <p><br> </p>
 <p><strong><em>duration: 1 week</em></strong>
 <br><br></p>
-<p>ForgTech company wanna test your ability to type down a clean code by Deploying the structure of resources. This will help you to build a
+<p>ForgTech company wanna test your ability to type down a clean code by deploying the structure of resources. This will help you to build a
 good reputation.
-The FrogTech Database team determined to migrate the local PostgreSQL Database to AWS RDS, They have tested/discovered the RDS
-functionality, Flaws, and parameter groups configuration.
+The FrogTech Database team has determined to migrate the local PostgreSQL Database to AWS RDS. They have tested/discovered the RDS
+functionality, Flaws, and parameter group configuration.
 Therefore, You’re requested to provision an advanced Highly available Multi-az instance PostgreSQL RDS version &gt;=15.*, The RDS
-Structure should be as primary and standby without read replica, besides creating a Jumper server “bastion host“ to allow the Database
-team to connect to The RDS. and consider the following requirement specifications:</p>
+Structure should be primary and standby without a read replica, besides creating a Jumper server “bastion host") to allow the Database
+team to connect to the RDS, and consider the following requirement specifications:</p>
 <ol>
-<li>allocate storage as 20 <em>i.e. avoiding high cost.</em></li>
+<li>Allocate storage as 20 <em>i.e., avoiding high cost.</em></li>
 <li>instance_calss as db.t3.micro <em>i.e. avoiding high cost.</em></li>
 <li>Deny public access.</li>
 <li>Both RDSs use the same Security group.</li>
-<li>Security Group allows inbound traffic for 5432 port from the bastion host only. and allows all outbound traffic.</li>
-<li>Set skip_final_snapshot as true.</li>
-<li>Manage master user password using secret manager.</li>
+<li>Security Group allows inbound traffic for 5432 port from the bastion host only. And allows all outbound traffic.</li>
+<li>Set skip_final_snapshot to true.</li>
+<li>Manage the master user password using Secret Manager.</li>
 <li>Deny major changes and updates on the database.</li>
 <li>Allow minor changes and updates on the database.</li>
 <li>Set up backup retention period to 7 days.</li>
 <li>Copy tags to snapshots.</li>
 <li>Delete auto backup.</li>
 <li>Encrypt Storage at rest.</li>
-<li>enabling Blue/Green deployment.</li>
+<li>Enable Blue/Green deployment.</li>
 </ol>
-<p>After provisioning the required Resources, Check the user accessibility utilizing the pgAdmin application or Psql client command line from
+<p>After provisioning the required Resources, check user accessibility utilizing the pgAdmin application or Psql client command line from
 the bastion host.
 <br><br></p>
 <p>Use IaC Terraform to build all resources and consider the below requirements specifications.</p>
 <ol>
-<li>Resources must be created at the us-east-1 region.</li>
+<li>Resources must be created in the us-east-1 region.</li>
 <li>
-<p>Store state file backend into S3.</p>
+<p>Store the state file backend in S3.</p>
 </li>
 <li>
-<p>Resources must have common tags combination as below:</p>
+<p>Resources must have a common tag combination as below:</p>
 </li>
 <li>Common tags:<ul>
 <li>Key: “Environment”, Value: “terraformChamps”</li>
@@ -1688,11 +1688,11 @@ the bastion host.
 <p><strong>Bonus</strong></p>
 <ol>
 <li>Build an Architecture diagram of the deployment resources.</li>
-<li>Build a personal document consisting of what you learn with deep details and resources <em>i.e. this will assist you to get back and refresh</em>
+<li>Build a personal document consisting of what you learn with deep details and resources <em>i.e., this will assist you to get back and refresh</em>
     <em>your knowledge later</em></li>
-<li>Store the backend into HCP instead.</li>
-<li>Apply &amp; destroy using planfile.</li>
-<li>Craft multiple workspaces <em>i.e. local Or on The HCP platform.</em>
+<li>Store the backend in HCP instead.</li>
+<li>Apply &amp; destroy using the plan file.</li>
+<li>Craft multiple workspaces <em>i.e., local or on the HCP platform.</em>
 <br></li>
 </ol>
 <p><br></p>
@@ -1709,7 +1709,7 @@ the bastion host.
 <li><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitoring.html">Monitoring metrics in an Amazon RDS instance</a></li>
 <li><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitor_Logs_Events.html">Monitoring events, logs, and streams in an Amazon RDS DB instance</a></li>
 <li><a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html">Using Amazon RDS Proxy</a></li>
-<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/24-advancedRDSconfigs">Deploy an advanced RDS</a></li>
+<li><a href="https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/24-advancedRDSconfigs">Deploy an advanced RDS</a>   ( Invalid Link )</li>
 </ul>
 
 
