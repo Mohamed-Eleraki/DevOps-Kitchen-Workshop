@@ -10,7 +10,7 @@ authenticating using IAM credentials.
 There are two main S3 buckets 1. frogtech-us-external and 2. frogtech-us-internal, The Challenge lies in the manual actions that
 operators do daily in order to move files from one S3 to another.
 
-You’re requested to automate this process using a Lambda function, utilizing the native SDK of AWS _(i.e., the Python boto3 SDK)_ FrogTech
+You’re requested to automate this process using a Lambda function, utilizing the native SDK of AWS _(i.e. the Python boto3 SDK)_ FrogTech
 engineers have no idea about Lambda. Therefore, you, as an expert, should provide them with a document containing the **basics** of Lambda,
 besides explaining:
 

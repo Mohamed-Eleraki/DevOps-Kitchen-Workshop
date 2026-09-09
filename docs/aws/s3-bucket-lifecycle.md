@@ -17,14 +17,14 @@ The S3 bucket is required to have directories as follows:
 
 and file transitions must match the following rules:
 
-- Transition all files under /log to infrequent access (i.e., Standard-IA) 30 consecutive days after creation time.
-- Transition all files under /log to Archive access (i.e., Glacier) 90 consecutive days after creation time.
-- Transition all files under /log to Deep Archive access (i.e., Glacier Deep Archive) 180 consecutive days after creation time.
+- Transition all files under /log to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
+- Transition all files under /log to Archive access (i.e. Glacier) 90 consecutive days after creation time.
+- Transition all files under /log to Deep Archive access (i.e. Glacier Deep Archive) 180 consecutive days after creation time.
 - Remove all files under /log 365 consecutive days after creation time.
 - Transition all files under /outgoing with tag "notDeepArchive" to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
-- Transition all files under /outgoing to Archive access (i.e., Glacier) with the tag "notDeepArchive" 90 consecutive days after creation time.
-- Transition all files under /incoming with size between 1MB and 1G to infrequent access (i.e., Standard-IA) 30 consecutive days after creation time.
-- Transition all files under /incoming with sizes between 1MB and 1 GB to Archive access (i.e., Glacier) 90 consecutive days after creation time.
+- Transition all files under /outgoing to Archive access (i.e. Glacier) with the tag "notDeepArchive" 90 consecutive days after creation time.
+- Transition all files under /incoming with size between 1MB and 1G to infrequent access (i.e. Standard-IA) 30 consecutive days after creation time.
+- Transition all files under /incoming with sizes between 1MB and 1 GB to Archive access (i.e. Glacier) 90 consecutive days after creation time.
 
 <br>
 <br>

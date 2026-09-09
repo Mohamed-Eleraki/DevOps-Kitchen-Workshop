@@ -10,7 +10,7 @@ FrogTech is required to build an S3 Bucket with versioning enabled, while ensuri
 in order to assign other members access by setting the bucket ownership to “BucketOwnerEnforced.”
 
 Create an IAM user called “Mohamed” and provide him access to upload files into the/log directory at s3 Bucket via a bucket policy. Besides
-ensuring that you can destroy the S3 _(i.e., using the terraform destroy command)_ even if the bucket is not empty.
+ensuring that you can destroy the S3 _(i.e. using the terraform destroy command)_ even if the bucket is not empty.
 
 <br>
 <br>

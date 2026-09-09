@@ -24,9 +24,9 @@ and refreshing your knowledge later._
 By following the ForgTech deployment policy, you should deliver this deployment in an automated pipeline using CircleCI and follow the
 DevOps Team pipeline structure standards, as The Pipeline stages should be as follows:
 
-1. Preparation stage: This includes the installation and preparation steps _(i.e., install AWS CLI, Terraform, and Terraform Initialization)_. The
+1. Preparation stage: This includes the installation and preparation steps _(i.e. install AWS CLI, Terraform, and Terraform Initialization)_. The
     installation must be done using the command map.
-2. Plan Stage: This includes the Terraform validation and plan commands; The plan must be done using the output file _(i.e., tfplan file)
+2. Plan Stage: This includes the Terraform validation and plan commands; The plan must be done using the output file _(i.e. tfplan file)
     Then save the output plan file using the CircleCI workspace to use it in another step.
 3. Manual approval: Pause the pipeline until Reviewed & approved by the checker engineer.
 4. Terraform apply: This includes attaching the saved output plan file in the plan stage and then starting to provision resources.

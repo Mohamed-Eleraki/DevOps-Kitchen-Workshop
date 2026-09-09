@@ -15,7 +15,7 @@ The FrogTech Cloud Team requests that you implement local Python scripts with th
 requirements:
 
 1. Enable the user to specify the region.
-2. List the specified region resources (i.e., VPC, EC2, enough as a POC)
+2. List the specified region resources (i.e. VPC, EC2, enough as a POC)
 3. Create a Terraform file that contains the required details to create the fetchd VPCs.
 4. Consider docstrings and type hints.
 5. By using docstrings and type hints, create public documentation that explains your tool using MkDocs.
@@ -35,7 +35,7 @@ requirements:
    c. List related functions in the same file.
 
 8. Consider using the main file only to call all the functions and handle their dependencies.
-9. Consider the Python PEP8 code standardization (i.e., by installing VS Code extensions like pylint, Black, or even ruff)
+9. Consider the Python PEP8 code standardization (i.e. by installing VS Code extensions like pylint, Black, or even ruff)
 10. Consider using assertions for debugging purposes only.
 
 Also build a README file explaining what your tool is doing and how to use it.

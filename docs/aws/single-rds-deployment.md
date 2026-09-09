@@ -17,7 +17,7 @@ Therefore, You’re requested to provision a PostgreSQL RDS version >=15.* with 
 
 1. Allocate storage as 20.
 2. instance_calss as db.t3.micro.
-3. Allow public access _i.e., for testing purposes._
+3. Allow public access _i.e. for testing purposes._
 4. Security Group allows all inbound traffic for 5432 port and allows all outbound traffic.
 5. Set skip_final_snapshot to true.
 6. Set multi_az to false.
@@ -40,7 +40,7 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 **Bouns**
 
 1. Build an Architecture diagram of the deployment resources.
-2. Build a personal document consisting of what you learn with deep details and resources _i.e., this will assist you to get back and refresh_
+2. Build a personal document consisting of what you learn with deep details and resources _i.e. this will assist you to get back and refresh_
     _your knowledge later_
 3. Store the backend in HCP instead
 

@@ -14,7 +14,7 @@ Therefore, You’re requested to provision an advanced Highly available Multi-az
 Structure should be primary and standby without a read replica, besides creating a Jumper server “bastion host") to allow the Database
 team to connect to the RDS, and consider the following requirement specifications:
 
-1. Allocate storage as 20 _i.e., avoiding high cost._
+1. Allocate storage as 20 _i.e. avoiding high cost._
 2. instance_calss as db.t3.micro _i.e. avoiding high cost._
 3. Deny public access.
 4. Both RDSs use the same Security group.
@@ -51,11 +51,11 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 **Bonus**
 
 1. Build an Architecture diagram of the deployment resources.
-2. Build a personal document consisting of what you learn with deep details and resources _i.e., this will assist you to get back and refresh_
+2. Build a personal document consisting of what you learn with deep details and resources _i.e. this will assist you to get back and refresh_
     _your knowledge later_
 3. Store the backend in HCP instead.
 4. Apply & destroy using the plan file.
-5. Craft multiple workspaces _i.e., local or on the HCP platform._
+5. Craft multiple workspaces _i.e. local or on the HCP platform._
 <br>
 
 <br>

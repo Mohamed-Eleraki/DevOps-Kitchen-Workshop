@@ -47,7 +47,7 @@ Consider the following requirements specifications.
 **Bonus**
 
 1. Build an Architecture diagram of the deployment resources.
-2. Build a personal document consisting of what you learn with deep details and resources _i.e., this will assist you to get back and refresh_
+2. Build a personal document consisting of what you learn with deep details and resources _i.e. this will assist you to get back and refresh_
     _your knowledge later_
 3. Append an extra step command in the Plan stage to review specific parts of attributes using the jq command.
 4. Crafting multiple HCP workspaces.
