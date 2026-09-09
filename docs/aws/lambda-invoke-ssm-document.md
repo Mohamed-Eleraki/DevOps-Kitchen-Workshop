@@ -64,9 +64,9 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 
 ### **References:**
 
-- [\[AWS\] Lambda - Invoke SSM + Terraform Project 07](https://mohamed-eleraky.hashnode.dev/aws-lambda-invoke-ssm-terraform-project-07#heading-ec2-resources-deployment)  ( Invalid Link )
-- [Terraform Tricks](https://mohamed-eleraky.hashnode.dev/terraform-tricks)  ( Invalid Link )
-- [\[AWS\] Lambda Concepts Essentials](https://mohamed-eleraky.hashnode.dev/aws-lambda-concepts-essentials#heading-create-the-deployment-package-virtual-environment)  ( Invalid Link )
+- [\[AWS\] Lambda - Invoke SSM + Terraform Project 07](https://eraki.hashnode.dev/aws-lambda-invoke-ssm-terraform-project-07#heading-ec2-resources-deployment)
+- [Terraform Tricks](https://eraki.hashnode.dev/terraform-tricks)
+- [\[AWS\] Lambda Concepts Essentials](https://eraki.hashnode.dev/aws-lambda-concepts-essentials#heading-create-the-deployment-package-virtual-environment)
 - [Create dynamic expressions | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/tutorials/configuration-language/expressions#create-infrastructure)
-- https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo 28-basic_conditionl_expression   ( Invalid Link )
+- https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo 28-basic_conditionl_expression
 

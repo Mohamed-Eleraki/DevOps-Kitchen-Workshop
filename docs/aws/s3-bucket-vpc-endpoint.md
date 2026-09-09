@@ -44,4 +44,4 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 
 - [EC2 instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html?icmpid=docs_ec2_console)
 - [VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/create-interface-endpoint.html)
-- [code sample 01](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/06-S3Bucket)  ( Invalid Link )
+- [code sample 01](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/06-S3Bucket)

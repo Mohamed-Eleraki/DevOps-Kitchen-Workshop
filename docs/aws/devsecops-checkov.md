@@ -58,4 +58,4 @@ Consider the below requirements specifications.
 - [What is checkov](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html#supported-iac-types)
 - [Custom policy overview](https://www.checkov.io/3.Custom%20Policies/Custom%20Policies%20Overview.html)
 - [Terraform plan scanning](https://www.checkov.io/7.Scan%20Examples/Terraform%20Plan%20Scanning.html)
-- [eraki code sample](https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml)   ( Invalid Link )
+- [eraki code sample](https://github.com/Mohamed-Eleraki/terraform/blob/main/buildspec.yml)

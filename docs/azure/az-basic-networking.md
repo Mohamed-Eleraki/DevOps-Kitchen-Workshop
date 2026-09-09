@@ -32,4 +32,4 @@ following requirements:
 
 ### **References:**
 
-- https://github.com/Mohamed-Eleraki/terraform/tree/main/Azure/06-Azure-networking   ( Invalid Link )
+- https://github.com/Mohamed-Eleraki/terraform/tree/main/Azure/06-Azure-networking

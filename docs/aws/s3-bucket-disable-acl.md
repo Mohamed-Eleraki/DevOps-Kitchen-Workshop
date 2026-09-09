@@ -52,5 +52,5 @@ the below requirements specifications.
 ## References:
 
 1. [What is AWS Lambda? - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
-2. [\[AWS\] Lambda - S3 Trigger + Terraform Project 10](https://mohamed-eleraky.hashnode.dev/aws-lambda-s3-trigger-terraform-project-10#heading-the-architecture-design-diagram)   ( Invalid Link )
-3. [\[AWS\] Lambda Concepts Essentials](https://mohamed-eleraky.hashnode.dev/aws-lambda-concepts-essentials#heading-synchronous-invocation)   ( Invalid Link )
+2. [\[AWS\] Lambda - S3 Trigger + Terraform Project 10](https://eraki.hashnode.dev/aws-lambda-s3-trigger-terraform-project-10#heading-the-architecture-design-diagram)
+3. [\[AWS\] Lambda Concepts Essentials](https://eraki.hashnode.dev/aws-lambda-concepts-essentials#heading-synchronous-invocation)

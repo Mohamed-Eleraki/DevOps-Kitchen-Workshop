@@ -55,5 +55,5 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 
 - [AWS RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
 - [Best practices for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html)
-- [Deploy basic RDS](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/22-deployBasicRDS)   ( Invalid Link )
+- [Deploy basic RDS](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/22-deployBasicRDS)
 

@@ -17,6 +17,4 @@ specifications.
 3. Preferred to use variables.
 <br><br>
 
-#### **Code samples:**
 
-1. https://github.com/Mohamed-Eleraki/DevOps-Kitchen-Workshop/tree/main/Terraform-Workshops/dayOneSampleCan't find link  ( Invalid Link )

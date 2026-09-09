@@ -73,5 +73,5 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 - [Monitoring metrics in an Amazon RDS instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitoring.html)
 - [Monitoring events, logs, and streams in an Amazon RDS DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Monitor_Logs_Events.html)
 - [Using Amazon RDS Proxy](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html)
-- [Deploy an advanced RDS](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/24-advancedRDSconfigs)   ( Invalid Link )
+- [Deploy an advanced RDS](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/24-advancedRDSconfigs)
 

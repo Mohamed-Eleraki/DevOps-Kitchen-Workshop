@@ -47,7 +47,7 @@ Use IaC Terraform to build all resources and consider the below requirements spe
 ## References:
 
 - [How to use IAM Role in Terminal](https://eraki.hashnode.dev/aws-s3bucket-mft-terraform-project-06#heading-check-taha-user-permissions)
-- [Week Three workshop code samples](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)  ( Invalid Link )
+- [Week Three workshop code samples](https://github.com/Mohamed-Eleraki/terraform/tree/main/AWS_Demo/09-S3BucketPolicy03)
 - [AWS DOCS - S3 policy](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html)
 - [AWS DOCS - S3 Commands reference](https://docs.aws.amazon.com/cli/latest/reference/s3/)
 - [AWS DOCS - S3api commands reference](https://docs.aws.amazon.com/cli/latest/reference/s3api/)
